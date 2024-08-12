@@ -1,0 +1,43 @@
+# Prueba ------------------------------------------------------------------
+#01. Cree un proyecto (Rproject). File->New Project->New Directory-> New Project,
+# el nombre del proyecto debe ser "Prueba 1", recuerde que se creará una carpeta con ese nombre en la ruta que seleccione.
+# Además asegurese tener el archivo "Encuesta Estudiantes Antropología 2023.xls" dentro de la carpeta del proyecto.
+
+#02. Cree un vector llamado "amigxs" que contenga los nombres de sus 5 mejores amigos/as
+
+#03. Cree un vector llamado "edad" que contenga la edad de sus 5 mejores amigos/as en el mismo orden anterior
+
+#04. Cree un vector llamado "genero" que indique el género de sus 5 mejores amigos/as(debe seguir el mismo orden que el anterior)
+# puede ser: masculino, femenino, no binario
+
+#05. Cree un vector llamado "annio_inicio" que señale el año en que empezó la amistad con sus 5 mejores amigo/a. 
+
+#06. Cree un vector llamado "annio_actual" que señale el año actual (2023), todos sus amigos/as deberán tener el mismo año. 
+
+#07. Finalmente, reste el vector "annio_actual" al "annio_inicio", guarde el resultado en "annios_amistad".
+
+#08. Cree un dataframe (llamarla: BASE_DATOS) que contenga los vectores creados previamente
+
+#09. Observe su base y señale: ¿De los/as 5 amigos/as ¿Con cuál/es tiene una amistad más duradera?
+
+#10. Obtenga el promedio de edad de sus amigos/as (uso de $)
+
+#Parte 2: apertura de bases
+# 11.Cargue los paquetes tidyverse y openxlsx, en caso de no tenerlos, instalarlos.
+
+# 12.Importe la base de datos "Encuesta Estudiantes Antropología 2023", la que está configurada con extensión xlsx.
+# Nombrela la base que abra como encuesta_antropologia
+
+# Hint1: Esta base de datos no se encuentra en la primera hoja. Debe seleccionar hoja (sheet=) 
+# Hint2: Observe la filadesde donde parte la base de datos. Debe seleccionar la fila (startRow =)
+
+#13. ¿Cuál es la cantidad de filas(observaciones/casos) y columnas(variables) de la base de datos?
+
+#14. Guarde el script: prueba1_suapellido_sunombre (ejemplo: prueba1_munozsebastian): todo en minúscula, sin tildes, ni ñ.
+#File -> save As -> prueba1_suapellido_sunombre
+
+
+#15. Envie su prueba, incluyendo script, proyecto y base de datos: por teams o a semunoz@uahurtado.cl
+
+
+

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Taller R 1</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sebastián Muñoz &amp; Gino Ocampo" />
+    <script src="Taller-1_files/header-attrs-2.16/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Taller R 1
+]
+.subtitle[
+## 29-ago-2023
+]
+.author[
+### Sebastián Muñoz &amp; Gino Ocampo
+]
+
+---
+
+
+
+
+
+---
+## En esta clase
+
+### 0. Fechas
+
+### 1. Repaso y Tarea
+
+### 2. Primeros pasos en R
+
+### 3. Aplicación
+
+### 4. Ejercicio casa
+
+---
+class: inverse, center, middle
+
+# 0. Fechas
+
+
+---
+
+## Fechas
+
+- Martes 29 de Agosto: Comenzamos con R
+- Viernes 1 de Septiembre: Ayudantía: tener instalado R
+- Martes 5 de Septiembre: Metodología [posibilidad de **tutorías**]
+- Martes 12 de Septiembre: Seguimos con R
+- Viernes 15 de Septiembre: Ayudantía
+- Martes 19 de Septiembre: Feriado
+- Viernes 22 de Septiembre: Posibilidad de Ayudantía: Pre-prueba
+- Martes 26 de Septiembre: **Prueba** metodología + R
+
+---
+class: inverse, center, middle
+
+# 1. Repaso y Tarea
+
+---
+# Introducción Metodología Cuantitativa
+
+- Paradigmas vs estrategias
+- Investigación cuantitativa y la relevancia del uso de números: una reducción útil
+- Implicancias de la forma de trabajo: simplicidad, profundidad, generalidad
+- De las formas de medición (ordinaria, fundamental y representacional) a los niveles de medida (nominal, ordinal, escalar, razón)
+- tema/idea, pregunta, objetivos
+
+
+---
+
+## Tema o idea
+
+- *"es un foco de interés o una situación o fenómeno que se desea conocer más o que ha despertado nuestra curiosidad por motivos problamente extra-académicos"*
+
+- *"Puede ser muy amplio y representar casi el campo de una o varias disciplinas"*
+
+- *"Se requiere acotar, recortar o especificar nuestro tema de interés"*
+
+
+---
+
+## Del tema al problema
+
+- *"un tema se transforma en problema cuando se hace evidente que es necesaria una investigación para solucionarlo"*
+
+- *"el problema se conforma a partir de los aspectos o dimensiones de una tema que se eligen para un estudio específico"*
+
+-*luego, vamos planteando preguntas más generales y otras derivadas"*
+
+-*pregunta: especificar sujeto (a quién),vincularlo a algún concepto (construcción de objeto), acotar en tiempo y espacio, haciendo explícita la necesidad de una respuesta empírica* 
+
+
+---
+
+## De tema a problema
+
+###Responder las siguientes preguntas sobre su tema de investigación: 
+- ¿Por qué es interesante para mi/nosotros?
+- ¿Por qué podría ser interesante e importante para otros?¿Contribuye a mi campo de estudio, mi institución, nuestros compañeros/as?
+- ¿Se puede hacer de forma cuantitativa? ¿Por qué?
+
+###A partir de su tema definir:
+- su pregunta de investigación (bien formulada)
+- escribir dos preguntas de investigación que estén mal formuladas
+
+Llenarlo [aquí](https://docs.google.com/document/d/1YYB5lue-XZKj0flSBVlG15RuvhVZn06dfGGqAqfP1Is/edit).
+
+
+---
+## En Rúbrica para trabajo
+
+
+Formulación (20 puntos)
+-	Los/as investigadores/as y desarrollan correctamente su problema (10) y pregunta de investigación (10)
+-	Esta última es razonable, perspicaz, creativa y plausible de ser realizada de forma cuantitativa. 
+
+---
+
+## Situando momentos de Investigación Cuantitativa
+
+
+&lt;img src="img/Imagen1.png" class="centered-image" style="max-width: 70%;" /&gt;
+
+
+---
+class: inverse, center, middle
+
+# Primeros pasos en R
+---
+## ¿Qué **haremos**?
+
+* Introducción a R y Rstudio
+* Manejo inicial de bases de datos con Tidyverse
+* Estadística descriptiva
+* Algunos gráficos en ggplot2
+
+---
+## ¿Por qué usar R?
+
+SPSS                                  | R
+--------------------------------------|-----------------------------------------
+(+) Más usado en Ciencias Sociales    |(+) Open source
+(+) Es sencillo de utilizar           |(+) mayor personalización, control y mejor 
+(-) Requiere licencia paga            |replicabilidad
+(-)No permite personalización y       |(+) constante desarrollo de paquetes
+ control                              |(-) mayor dificultad por uso vía sintaxis
+
+---
+
+![](img\Imagen11.png)
+---
+![](img\Imagen12.png)
+---
+![](img\Imagen13.png)
+---
+![](img\Imagenguarro.png)
+---
+
+![](img\Imagen14.jpg)
+
+---
+## Características generales R
+
+* Filosofía de software libre (freeware). Bajo Licencia Pública General (General Public License).
+  - Distribución gratuita de su versión básica: funcionalidades generales.
+  - Distribución gratuita de paquetes de funciones especializadas.
+  - R Developement Core Team y CRAN (Comprehensive R Archive Network) como espacios             “oficiales” de desarrollo y distribución del software.
+
+* Actualización pública, gratuita y permanente de versión básica y paquetes.
+  - Desarrollo permanente de nuevas utilidades: contribución de usuarios alrededor del mundo   mantiene sus prestaciones en la vanguardia del desarrollo de técnicas de manipulación y   análisis de datos.
+  - No sólo para ciencias sociales. Muchos otros campos: ciencias naturales, 
+economía, lingüística.
+---
+
+![](img\Imagen15.jpg)
+---
+### De R a Rstudio: abrir programa
+
+Máscara que intenta hacer de R más amigable, agrega ventanas y botones
+![](img\Imagen16.png)
+---
+## RSTUDIO
+
+- Abramos el R Studio
+- Abramos el **proyecto** que dice Taller 1
+- Carguemos **el archivo** que dice Taller 1.RMD
+- Carguemos **script de r** clase 1.R
+- Hagamos Knit en Taller 1.RMD
+- eliminar el #install.packages("xaringanthemer") (si es necesario)
+
+---
+## RSTUDIO
+
+![](img\Imagen17.png)
+* Ventana (1): Editor de Sintaxis
+* Ventana (2): “Entorno de Trabajo”
+* Ventana (3): Sub-pestañas; Files (Historial de archivos), plots (Gráficos), packages (Paquetes), help (ayuda)
+* Ventana (4): Visualizador de resultados.
+---
+## Editor de sintaxis
+
+- Estructura y formato de block de notas.
+- Permite construir sintaxis sin ejecutar de manera directa (la consola hace eso).
+- Funcionalidad de comentarios anteponiendo signo gato (#), en R script vs. R Markdown.
+- Rstudio tiene función de predecir comandos.
+- Se puede ejecutar con botón  “run” o presionando ctrl+enter luego de seleccionar un  texto o  al final de una línea.
+
+![](img\Imagen18.png)
+## Consola y visor de resultados
+
+Si se escriben comandos, cada vez que se apriete enter, se ejecutarán.
+Una vez ejecutados correctamente, queda en azul.
+Si hubo errores queda en rojo y arroja mensajes (¡importantes!).
+También visualiza algunas operaciones. 
+Lo que se visualiza es sólo una “foto”. No queda guardado ni disponible para manipular si no se asigna a un objeto.
+Está listo para operar cuando hay un signo “mayor que” de color azul y luego el cursor titilando
+![](img\Imagen19.png)
+---
+## Entorno y directorio de trabajo
+- Memoria interna del programa y uso de memoria RAM.
+- Entorno de Trabajo temporal (dura la sesión).
+- Uno puede almacenar objetos en la memoria temporal.
+- Directorio o carpeta de trabajo.
+
+![](img\Imagen20.png)
+---
+## Estructura Plataforma **R**
+![](img\Imagen21.png)
+---
+## Foro Stackoverflow
+![](img\Imagen22.png)
+---
+## Comunidad R-Ladies Global
+![](img\Imagen23.png)
+---
+## Curso en línea Coursera 
+![](img\Imagen24.png)
+---
+## Curso en línea Udemy 
+
+![](img\Imagen25.png)
+---
+## Curso en línea Estación Lastarria
+![](img\Imagen26.png)
+
+---
+## Curso en línea Datacamp
+![](img\Imagen27.png)
+---
+![](img\Imagen28.png)
+---
+## ¿Cómo funciona? – Uso de Sintaxis
+Con R el usuario se comunica directamente con el programa a través de códigos que el software pueda procesar: es un tipo de lenguaje computacional.
+
+
+```r
+print("Hola")
+```
+
+```
+## [1] "Hola"
+```
+
+```r
+2+3
+```
+
+```
+## [1] 5
+```
+
+```r
+x &lt;- c(1,2,3,4,5,6)
+y &lt;- x^2
+y
+```
+
+```
+## [1]  1  4  9 16 25 36
+```
+El uso de Sintaxis permite: Replicabilidad, Eficiencia, Control
+Se trabaja con instrucciones (funciones) computacionales directas.
+---
+## Lógica y estructura de un comando
+![](img\imagen comandos.png)
+- A objeto le asigno el resultado de una acción/proceso (función) …
+- que se ejecutó sobre un conjunto de datos…
+- considerando una serie de configuraciones (argumentos: especificaciones de la función)
+- En este caso: leer una base de Excel en la pestaña dos desde la segunda fila; y asignarlo a la base1
+
+---
+## Elementos a considerar
+
+* La redacción es importante.
+* Es importante entender que los comandos pueden variar mucho según lo específico que podamos hacer. 
+* Nunca hay una forma “correcta” o “única” para resolver un problema.
+* Lo anterior demanda un usuario autónomo y con iniciativa
+* Es clave apoyarse en la viñeta “Help” de Rstudio.
+* Internet en general: gran variedad de foros
+* Posibilidad de usar Chat Gpt
+
+---
+## Tipos de objetos: valores
+
+```r
+1 #es un valor numerico
+```
+
+```
+## [1] 1
+```
+
+```r
+"uno" # es un valor cáracter
+```
+
+```
+## [1] "uno"
+```
+
+```r
+"1" # es un valor cáracter
+```
+
+```
+## [1] "1"
+```
+
+```r
+"Esto es un uno" # también es un valor (cáracter).
+```
+
+```
+## [1] "Esto es un uno"
+```
+
+---
+## Tipos de objetos -&gt; Vector
+* Almacenamiento contiguo (filas o columnas), tienen una dimensión
+* Puede almacenar información numérica, caracteres, valores lógicos (TRUE or FALSE)
+Ejemplo:
+
+```r
+Vector_numerico &lt;- c(1, 2, 4, 78, 42, 3, 65)
+Vector_de_texto &lt;- c("casa", "auto", "bus", "bicicleta")
+Vector_lógico &lt;- c(TRUE, FALSE, FALSE, TRUE)
+```
+---
+## Tipos de objetos -&gt; Factor
+* Se trata de un vector que puede almacenar dos capas de información (tiene dos dimensiones): números y letras. 
+* Es útil para variables nominales (como género) u ordinales (muy satisfecho, satisfecho, poco satisfecho, muy insatisfecho)
+
+
+
+```r
+genero &lt;- c(1, 2, 2, 2, 1, 1)
+factor(genero, labels = c("masculino", "femenino"))
+```
+
+```
+## [1] masculino femenino  femenino  femenino  masculino masculino
+## Levels: masculino femenino
+```
+---
+
+## Tipos de objetos Bases de datos (Data Frame)
+
+* El elemento data.frame es lo que conocemos como una base de datos: Filas (casos) y columnas (variables) relacionadas entre sí:
+
+![](img\Imagen29.png)
+---
+## Paquetes
+
+* Los paquetes son una parte fundamental del ecosistema de R, permiten a los usuarios ampliar las capacidades básicas del lenguaje.
+* Desde el CRAN se pueden descargar e instalar los paquetes que requiramos.
+* Actualización constante: conocer principales desarrolladores y paquetes más usados. 
+
+![](img\rstudiopackages.jpeg)
+---
+## Paquetes
+
+* Instalación: Para usar un paquete en R, primero debes instalarlo en tu sistema utilizando la función `install.packages()`
+* Carga: Una vez que un paquete está instalado, puedes cargarlo en tu sesión de R utilizando la función `library()`
+* Pacman: 
+
+
+```r
+# install.packages("tidyverse","readxl") Instalación de paquetes
+library("tidyverse","readxl") #Carga de paquetes
+```
+
+---
+## Paquetes
+
+* Instalación y carga de paquetes con paquete pacman
+* Permite instalar y cargar paquetes en una misma línea de código. Primero se debe instalar el paquete pacman con `install.packages("pacman")`
+
+
+```r
+pacman::p_load(tidyverse,readxl) #Si ya está instalado el paquete, sólo lo carga a la sesión.
+```
+
+---
+class: inverse, center, middle
+
+# 3. Ejercicio **Casa**
+
+---
+## Ejercicio Casa
+
+Instalar R en sus computadores
+
+[link](https://posit.co/download/rstudio-desktop/)
+
+[Parte 1](https://www.youtube.com/watch?v=XAfZUN2m-h8&amp;ab_channel=GIORGIOBOCCARDOBOSONI)
+
+[Parte 2](https://www.youtube.com/watch?v=H5lCZ0ynVYw&amp;ab_channel=GIORGIOBOCCARDOBOSONI)
+
+
+---
+class: inverse, center, middle
+
+# 4. Aplicación
+
+### Vamos al programa
+
+![](img\mr-robot-technology.gif)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

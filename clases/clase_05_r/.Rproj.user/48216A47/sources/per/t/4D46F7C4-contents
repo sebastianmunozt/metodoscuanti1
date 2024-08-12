@@ -1,0 +1,251 @@
+---
+title: "Clase 11"
+author: "Sebastián Muñoz & Gino Ocampo"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+pacman::p_load(xaringan,xaringanthemer,tidyverse, gt,kableExtra )
+
+style_duo_accent(
+  primary_color = "#000000",
+  secondary_color = "#B40404",
+  inverse_header_color = "#FFFFFF"
+)
+
+```
+
+## En esta clase
+
+
+### 1. Repaso
+
+### 2. Data.frame
+
+### 3. Instalación de paquetes
+
+### 4. Ejercicio casa
+
+---
+class: inverse, center, middle
+
+# 1. Repaso
+
+---
+
+## Instalación del software
+
+* ¿Todos lo tienen instalado?
+* ¿Problemas al instalar?
+* Ejecutar RStudio
+
+---
+![](img\Imagen1.png)
+- Ventana (1): Editor de Sintaxis
+- Ventana (2): “Entorno de Trabajo”
+- Ventana (3): Sub-pestañas; Files (Historial de archivos), plots (Gráficos), packages, help - (ayuda)
+- Ventana (4): Visualizador de resultados.
+---
+## Editor de sintaxis
+* Estructura y formato de block de notas.
+* Permite construir sintaxis sin ejecutar de manera directa (la consola hace eso).
+* Funcionalidad de comentarios anteponiendo signo gato (#).
+* RStudio tiene función de predecir comandos.
+* Se ejecuta con botón “run” o presionando ctrl+enter luego de seleccionar un texto o  al final de la línea.
+![](img\Imagen2.png)
+---
+
+## Consola y visor de resultados
+* Si se escriben comandos, cada vez que se apriete enter, se ejecutarán.
+* Una vez ejecutados correctamente, queda en azul.
+* Si hubo errores queda en rojo y arroja mensajes (¡importantes!).
+* También visualiza algunas operaciones. 
+* Lo que se visualiza es sólo una “foto”. No queda guardado ni disponible para manipular si no se asigna a un objeto.
+* Está listo para operar cuando hay un signo “mayor que” de color azul y luego el cursor titilando.
+![](img\Imagen3.png)
+---
+
+## Entorno y directorio de trabajo
+
+* Memoria interna del programa y uso de memoria RAM.
+* Entorno de Trabajo temporal (dura la sesión).
+* Uno puede almacenar objetos en la memoria temporal.
+* Directorio o carpeta de trabajo.
+![](img\Imagen4.png)
+---
+
+## Lógica y estructura de un comando
+
+![](img\imagen5.png)
+
+* A objeto le asigno el resultado de una acción/proceso (función) …
+que se ejecutó sobre un conjunto de datos…
+considerando una serie de configuraciones (argumentos: especificaciones de la función)
+* En este caso: leer una base de Excel en la pestaña dos desde la segunda fila; y asignarlo a la base1
+---
+
+## Tipos de objetos -> Vector
+* Almacenamiento contiguo (filas o columnas), tienen una dimensión
+* Puede almacenar información numérica, caracteres, valores lógicos (TRUE or FALSE)
+Ejemplo:
+```{r}
+Vector_numerico <- c(1, 2, 4, 78, 42, 3, 65)
+Vector_de_texto <- c("casa", "auto", "bus", "bicicleta")
+Vector_lógico <- c(TRUE, FALSE, FALSE, TRUE)
+
+```
+---
+## Tipos de objetos -> Factor
+* Se trata de un vector que puede almacenar dos capas de información (tiene dos dimensiones): números y letras. 
+* Es útil para variables nominales (como género) u ordinales (muy satisfecho, satisfecho, poco satisfecho, muy insatisfecho)
+
+
+```{r}
+genero <- c(1, 2, 2, 2, 1, 1)
+factor(genero, labels = c("masculino", "femenino"))
+```
+---
+class: inverse, center, middle
+
+# 2. Data frame
+
+---
+## Tipos de objetos Bases de datos (Data Frame)
+
+* El elemento data.frame es lo que conocemos como una base de datos: Filas (casos) y columnas (variables) relacionadas entre sí:
+![](img\Imagen6.png)
+---
+
+class: inverse, center, middle
+
+# 3. Instalación de paquetes
+
+---
+
+## Paquetes, ¿Qué son y para que nos sirven?
+
+* Nuevas funciones, bases de datos y objetos de R en general, complementarios a lo contenido en R Base.
+
+* Aportes de Universidades, investigadores, usuaries y empresas, para expandir las capacidades del lenguaje R y facilitar su uso.
+
+```{r, echo=FALSE }
+knitr::include_graphics("img/Imagen7.gif")
+
+```
+---
+## Paquetes, ¿Cómo se usan?
+
+* Podemos descargarlos e instalarlos con el siguiente comando:
+
+```{r, echo=TRUE, eval=FALSE}
+install.packages("nombre_del_paquete")
+```
+
+* Sólo es necesario instalar el paquete una vez por computadora. Se descargarán de la pagina de CRAN los archivos correspondientes, ubicándose en el directorio donde hayamos instalado el programa.
+* Una vez instalado el paquete, cada vez que abramos una nueva sesión de R y querramos utilizar el mismo debemos cargarlo al ambiente de trabajo mediante la siguiente función:
+
+```{r, echo=TRUE, eval=FALSE}
+library(nombre_del_paquete)
+```
+
+---
+## Ejemplos de paquetes
+
+```{r, echo=TRUE, eval=FALSE}
+- Para abrir archivos excel
+install.packages("openxlsx") # Sólo se instala una vez
+```
+
+- Conjunto de paquetes para limpiar, ordenar, recodificar y graficar datos
+"" con comillas ""
+
+```{r, echo=TRUE, eval=FALSE}  
+install.packages("tidyverse")#Sólo se debe instalar una vez. 
+
+#Abrir librerías (cada inicio de sesión)
+library(openxlsx)
+library(tidyverse)
+  
+```
+
+---
+class: inverse, center, middle
+
+# 4. Directorios de trabajo
+---
+## Directorios de trabajo, ¿cómo se usan?
+* En R usaremos archivos-inputs que son objetos que se encuentran en alguna carpeta de su pc o la nube.
+* Importaremos y exportaremos estos archivos para trabajarlos en R a través de RStudio.  
+* Estos archivos pueden ser 
+  - scripts
+  - bases de datos (CSV, Excel, SPSS, STATA, R)
+  - tablas 
+  - gráficos 
+  - imágenes
+  - etc (listas, referencias, imagenes,...)) 
+  
+* ¿Cómo garantizar que la **ruta** para importar bases de datos al ambiente de R y para exportar resultados pueda funcionar si muevo mis carpetas o las comparto?
+
+Debo asignar bien la *ruta* donde se encuentra mi (carpeta) directorio de trabajo o wd (working directory).
+
+```{r, echo=TRUE, eval=FALSE}
+
+read.csv("C:\Users\Guido\Investigación\Bases_COvid\Base Covid19.csv")
+dir.create("C:\Users\Guido\Investigación\Resultados")
+setwd("C:/Users/ginow/OneDrive/Escritorio/Cuanti I - Antropo/Clase 2 - Data frames y Abrir bases/Clase 11/")#Elijo donde vayan mis archivos
+```
+---
+## Rproject ![](img\Imagen7.png)
+
+Crear un proyecto de R utilizando RStudio y el archivo .Rproj ofrece ventajas sobre simplemente trabajar con un directorio de trabajo (working directory) en R.
+
+* Organización de archivos y directorios (Fácil acceso)
+* Aislamiento del entorno de trabajo.
+* Esto hace que sea más fácil compartir archivos, porque se comparte el proyecto (fácil replicabilidad)
+
+
+<div style="text-align:center">
+    <img src="img/Imagen7.png"/>
+</div>
+
+---
+## Rproject !
+
+* Para crearlo, vamos al logo de *"nuevo proyecto"* y elegimos la carpeta de trabajo. Cuando trabajemos con proyectos
+    - El directorio de trabajo siempre toma como punto inicial la carpeta donde esta ubicada el archivo .Rproj.
+    - El *Environment* es específico de nuestro proyecto. No se nos mezclará con resultados de código que podamos correr en otros proyectos.
+
+<img src="img/Imagen9.png"/>
+---
+
+<img src="img/Imagen10.png"/>
+
+---
+## Praçtica 1
+
+* Abran RStudio en sus computadoras y creen un nuevo proyecto en un nuevo directorio de sus computadoras.
+
+* Abran un nuevo script, importen las librerías “openxlsx" y "tidyverse" al ambiente de trabajo. Instálenlas previamente en caso de no haberlo hecho aún. Recuerden: install.packages("nombre_del_paquete")
+
+* Guarden el script dentro de la carpeta del proyecto que crearon.
+
+* Ejecuten la función list.files()
+
+---
+class: inverse, center, middle
+
+# Vamos al programa…
+
+---
+
+
+
