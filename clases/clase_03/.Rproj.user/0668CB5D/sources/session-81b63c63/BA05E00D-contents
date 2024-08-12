@@ -1,6 +1,6 @@
 ---
 title: "Clase 3"
-subtitle: "29-ago-2023"
+subtitle: "`r Sys.Date()`"
 author: "Sebastián Muñoz"
 output:
   xaringan::moon_reader:
