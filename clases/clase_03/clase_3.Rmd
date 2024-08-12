@@ -1,7 +1,7 @@
 ---
-title: "Taller R 1"
+title: "Clase 3"
 subtitle: "29-ago-2023"
-author: "Sebastián Muñoz & Gino Ocampo"
+author: "Sebastián Muñoz"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
