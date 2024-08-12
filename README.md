@@ -41,8 +41,7 @@ Nota: Todas las clases son presenciales, a continuación pueden ver las presenta
 | vier abril 5  | Introducción muestreo y Excel                                           | [`Clase3`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_03/clase_3#1)
 [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_03/clase_3.R) [`Capsulas`](https://www.youtube.com/playlist?list=PLtMKbC0NRgrE6LO02NvL4G9LdypG3P4lA)|
 | vier abril 12 | Data Wrangling                                                          | [`Clase4`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_04/clase_04.pptx) |
-| vier abril 19 | **Evaluación individual I**: nivelación en R                            | [`Clase5`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_01/clase_01.pptx) 
-[`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_05/clase_5.R)|
+| vier abril 19 | **Evaluación individual I**: nivelación en R                            | [`Clase5`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_01/clase_01.pptx) [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_05/clase_5.R) |
 | vier abril 26 | Prueba                                                                  | Pendiente |
 | vier mayo 10  | Visualización de datos categóricos en `ggplot`                          | [`Clase7`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_07/clase_07.pptx) |
 | vier mayo 17  | Análisis de datos cuantitativos                                         | [`Clase8`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_08/clase_08.pptx)
