@@ -74,7 +74,7 @@ Nota: En general las ayundantías son online, a excepción de algunas con Matía
 
 ### Sugerencias y Comentarios Clases, Ayudantías y Evaluaciones
 
-- Aquí, en el siguiente [`[Forms]`](https://docs.google.com/forms/d/e/1FAIpQLSetmFl4HRcoa8bM0jKJBcZP3blN_XASOaUC06g82zaqvmanbw/viewform?usp=sf_link), pueden dejar sus comentarios. En lo posible que sean críticas constructivas o  sugerencias sobre las clases, las evaluacioens o ayudantías para que podamos ir mejorando :) 
+- Aquí, en el siguiente [`[Forms]`](https://forms.gle/VCG7cmr5cr7tryAC7) pueden dejar sus críticas, comentarios o sugerencias. En lo posible que sean  constructivas para que podamos ir mejorando. 
 - Los comentarios son anónimos !
 
 
@@ -102,29 +102,7 @@ Nota: En general las ayundantías son online, a excepción de algunas con Matía
 
 
 
----
 
-## Encuesta de antropología 2024
-
-Acá podrán viendo la encuesta que realizamos, encontrando el trabajo que estamos haciendo con Samanta, Noel, Joaquín y Matías. Lo que contine: 
-
-- Excel con la base de datos
-- Un scrip de R con lo que estamos haciendo, esto es: 
-    - Procesamiento: limpieza y transformación de variables (codificaciones y recodificaciones)
-    - Análisis de frecuencias
-    - Tablas de Contingencia
-    - Gráficos univariados
-    - Gráficos bivariados 
-
-[`GitHub de Encuesta Antropología 2024`](https://github.com/sebastianmunozt/encuesta_antropologia_2024)
-
-
-- Esto le servirá de guía para su trabajo, donde ustedes deberán realizar lo siguiente:
-    - Procesamiento: limpieza y transformación de variables (codificaciones y recodificaciones).
-    - Análisis de frecuencias de todas las variables de su grupo.
-    - Tablas de Contingencia: con al menos 3 cruces interesantes: puede cruzar una variable de su grupo con cualquier otra. Por ejemplo, con las variables sociodemográficas.
-    - Gráficos univariados: de todas las variables de su grupo. 
-    - Gráficos bivariados: con al menos 3 cruces interesantes (los mismos de las tablas de contingencia).
 
 
 ---
@@ -144,41 +122,7 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 | Grupo | Tema                               | Nombre   | Apellido      |
 |-------|------------------------------------|----------|---------------|
-| 1     | sociodemográficos y proceso general | Noel     | Casas-Cordero |
-| 1     | sociodemográficos y proceso general | Samanta  | Letelier      |
-| 1     | sociodemográficos y proceso general | Joaquín  | Orellana      |
-| 2     | RRSS                               | Martín   | Campusano     |
-| 2     | RRSS                               | Patricia | González      |
-| 2     | RRSS                               | María    | Llantén       |
-| 2     | RRSS                               | Florencia| Martin        |
-| 2     | RRSS                               | Camila   | Segura        |
-| 2     | RRSS                               | Krishna  | Asencio       |
-| 3     | Ocio                               | Víctor   | Avalos        |
-| 3     | Ocio                               | Camila   | Crisóstomo    |
-| 3     | Ocio                               | Olivier  | Delherbe      |
-| 3     | Ocio                               | Alejandra| Mondaca       |
-| 3     | Ocio                               | Daniela  | Pasmino       |
-| 3     | Ocio                               | Sofía    | Ballerino     |
-| 4     | Cuidado ambiental                  | Gabriel  | Concha        |
-| 4     | Cuidado ambiental                  | Matilde  | Céspedes      |
-| 4     | Cuidado ambiental                  | Gonzalo  | Muñoz         |
-| 4     | Cuidado ambiental                  | Alonso   | Silva         |
-| 4     | Cuidado ambiental                  | Julia    | Sotomayor     |
-| 5     | Actividades Extracurriculares      | Valeria  | Carvajal      |
-| 5     | Actividades Extracurriculares      | Martín   | Cifuentes     |
-| 5     | Actividades Extracurriculares      | Catalina | Fuentes       |
-| 5     | Actividades Extracurriculares      | Venecia  | Moreno        |
-| 5     | Actividades Extracurriculares      | Mariana  | Pérez         |
-| 5     | Actividades Extracurriculares      | Joaquín  | Castillo      |
-| 5     | Actividades Extracurriculares      | Pedro    | Villarroel    |
-| 6     | Prácticas musicales                | Isidora  | Aros          |
-| 6     | Prácticas musicales                | Christell| Gutiérrez     |
-| 6     | Prácticas musicales                | Ricardo  | Quiroz        |
-| 7     | Religión y Espiritualidad          | Amanda   | Baez          |
-| 7     | Religión y Espiritualidad          | Valentina| González      |
-| 7     | Religión y Espiritualidad          | Javiera  | Herrera       |
-| 7     | Religión y Espiritualidad          | Verónica | Moya          |
-| 7     | Religión y Espiritualidad          | Antonia  | Ramírez       |
+
 
 
 
