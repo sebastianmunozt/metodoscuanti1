@@ -2,10 +2,6 @@
 ### Bienvenidxs al curso de Métodos Cuantitativos I de la carrera de Antropología en la Universidad Alberto Hurtado.
 
 
-
-The most exciting phrase to hear in science, the one that heralds new discoveries, is not `Eureka!` but `That's funny…`” “`That's funny…`” is the sound of something catching in your brain.
-
-
 ### Equipo Académico
 
 | Profesores         | email                       | 
