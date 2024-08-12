@@ -83,24 +83,16 @@ Nota: En general las ayundantías son online, a excepción de algunas con Matía
 
 
 ---
-## Evaluaciones y Tareas
+##  Tareas
 
-| Evaluación/Tarea              | Contenido                                    | Entrega        |
-|-------------------------------|----------------------------------------------|----------------|
-| Tarea 1.1                     | Formulario Corregido por Grupo               | Marzo 21 (Jueves) |
-| Tarea 1.2                     | Presentación de errores y soluciones         | Marzo 22 (Viernes)|
-| Avance 1                      | Presentación de formulario corregido         | Abril 05       |
-| Formulario Final               | Presentación de formulario final conjunto (solo ayudantes y directores) | Abril 19       |
-| Evaluación individual I       | Nivelación en R                              | Abril 19       |
-| Inicio Trabajo de Campo       | Hacer 5 cuestionarios por persona            | Mayo 03 (recalendarización)       |
-| Finalización Trabajo de Campo | Hacer 5 cuestionarios por persona            | Mayo 10 (recalendarización)      |
-| Avance 2                      | Procesamiento y análisis básico: Data Wrangling, Análisis de datos cualitativos (frecuencias, tablas de contingencia y gráficos)| Mayo 31 (recalendarización)        |
-| Evaluación individual II      | Procesamiento y análisis de datos cuanti/cuali | Junio 14       |
-| Pruebas recuperativas         | Pruebas 1 y 2 según el caso                    | Junio 28       |
-| Entrega grupal final          | Presentación de investigación en clases y entrega de trabajo | Julio 12 |
-| Entrega final de notas          |  -  | Julio 19 |
-
-
+| n° | Fecha       | Contenido                                                                                                                                  | Link                                                                                                                                      |
+|----|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | 20-8-2024   | Tarea 1: Defina su grupo y traiga dos temas de investigación por grupo                                                                     | [Llenar](https://docs.google.com/document/d/1pzb7SxNyIHTOBGxFIS3UGelb9CiSH5hJAcYj3L-r4s/edit?usp=sharing)                                  |
+| 2  | 27-8-2024   | Tarea 2: Redefinir idea colectiva y definir su pregunta de investigación (bien formulado). Defina dos preguntas de investigación sobre su tema que estén mal formuladas. | [Llenar](https://docs.google.com/document/d/1pzb7SxNyIHTOBGxFIS3UGelb9CiSH5hJAcYj3L-r4s/edit?usp=sharing)                                  |
+| 3  | 3-9-2024    | Tarea 3: Tener instalado R y desarrollar tarea                                                                                             | [Llenar](https://docs.google.com/document/d/1pzb7SxNyIHTOBGxFIS3UGelb9CiSH5hJAcYj3L-r4s/edit?usp=sharing)                                  |
+| 4  | 10-9-2024   | Tarea 4: Hacer ficha bibliográfica                                                                                                         | [Llenar](https://docs.google.com/document/d/1pzb7SxNyIHTOBGxFIS3UGelb9CiSH5hJAcYj3L-r4s/edit?usp=sharing)                                  |
+| 5  | 15-10-2024  | Tarea 5: Especificar Marco Teórico y Marco Metodológico: estrategia metodológica, objetivos, supuestos de experimentación                  | [Llenar](https://docs.google.com/document/d/1pzb7SxNyIHTOBGxFIS3UGelb9CiSH5hJAcYj3L-r4s/edit?usp=sharing)                                  |
+| 6  | 12-11-2024  | Tarea 6: Traer preguntas de cuestionario y digitalizarlas en Google Forms                                                                  | [Llenar](https://docs.google.com/document/d/1pzb7SxNyIHTOBGxFIS3UGelb9CiSH5hJAcYj3L-r4s/edit?usp=sharing)                                  |
 
 
 
