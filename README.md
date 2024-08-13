@@ -4,12 +4,12 @@
 
 ### Equipo Académico
 
-| Profesores         | email                       | 
+| Profesor           | email                       | 
 |--------------------|-----------------------------|
 | Sebastián Muñoz    | semunoz@uahurtado.cl  |
 
 
-| Ayudantes          | email                       |
+| Ayudante           | email                       |
 |--------------------|-----------------------------|
 | Matías Álvarez     | maalvarr@alumnos.uahurtado.cl |
 
@@ -27,6 +27,7 @@ Programación: [`[Programación]`](https://sebastianmunozt.github.io/metodoscuan
 ## Descarga e instalación de R y RStudio
 
 - Descargar e instalar `R`: [`[Cápsula]`](https://youtu.be/URtP9Qo2Trw?si=6BCceJEx7f6sXduZ) 
+- Descargar e instalar `RTools`: [`[Cápsula]`](https://www.youtube.com/watch?v=Re3DqxM_f2k)
 
 
 ---
