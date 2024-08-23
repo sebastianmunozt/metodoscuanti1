@@ -32,7 +32,6 @@ pacman::p_load(tidyverse, gt,kableExtra )
 ---
 ## En esta clase
 
-### 0. Fechas
 
 ### 1. Repaso y Tarea
 
@@ -43,26 +42,7 @@ pacman::p_load(tidyverse, gt,kableExtra )
 ### 4. Ejercicio casa
 
 ---
-class: inverse, center, middle
 
-# 0. Fechas
-
-
----
-
-## Fechas
-
-- Martes 29 de Agosto: Comenzamos con R
-- Viernes 1 de Septiembre: Ayudantía: tener instalado R
-- Martes 5 de Septiembre: Metodología [posibilidad de **tutorías**]
-- Martes 12 de Septiembre: Seguimos con R
-- Viernes 15 de Septiembre: Ayudantía
-- Martes 19 de Septiembre: Feriado
-- Viernes 22 de Septiembre: Posibilidad de Ayudantía: Pre-prueba
-- Martes 26 de Septiembre: **Prueba** metodología + R
-
----
-class: inverse, center, middle
 
 # 1. Repaso y Tarea
 
@@ -80,7 +60,7 @@ class: inverse, center, middle
 
 ## Tema o idea
 
-- *"es un foco de interés o una situación o fenómeno que se desea conocer más o que ha despertado nuestra curiosidad por motivos problamente extra-académicos"*
+- *"es un foco de interés o una situación o fenómeno que se desea conocer más o que ha despertado nuestra curiosidad por motivos probablemente extra-académicos"*
 
 - *"Puede ser muy amplio y representar casi el campo de una o varias disciplinas"*
 
@@ -95,7 +75,7 @@ class: inverse, center, middle
 
 - *"el problema se conforma a partir de los aspectos o dimensiones de una tema que se eligen para un estudio específico"*
 
--*luego, vamos planteando preguntas más generales y otras derivadas"*
+-*"luego, vamos planteando preguntas más generales y otras derivadas"*
 
 -*pregunta: especificar sujeto (a quién),vincularlo a algún concepto (construcción de objeto), acotar en tiempo y espacio, haciendo explícita la necesidad de una respuesta empírica* 
 
@@ -113,7 +93,7 @@ class: inverse, center, middle
 - su pregunta de investigación (bien formulada)
 - escribir dos preguntas de investigación que estén mal formuladas
 
-Llenarlo [aquí](https://docs.google.com/document/d/1YYB5lue-XZKj0flSBVlG15RuvhVZn06dfGGqAqfP1Is/edit).
+Llenarlo [aquí](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit).
 
 
 ---
