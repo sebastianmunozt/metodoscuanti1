@@ -24,6 +24,10 @@ y <- c(4, 3, 5) # Información del vector en entorno. Función concatenar "c ()"
 z <- c(1.1, 4.67, 5.1, 6.8)
 letras <- c("hombre", "mujer", "no sabe/no responde")
 
+class(y)
+class(z)
+class(letras)
+
 #4. MANIPULACIÓN MATEMÁTICA DE VECTORES #####
 2 - 1  #operar los dos cálculos a la vez
 10/2
@@ -62,6 +66,7 @@ genero_f <- factor(genero, labels = c("Hombre", "Mujer")) #Importancia del error
 
 genero_f <- factor(genero, labels = "Hombre")
 #observo cómo los categorizó (marco sólo genero_f)
+genero_f 
 
 generof <- factor (genero, labels = c("Hombre", "Mujer", "NS-NR")) #Incorporar valores perdidos
 generof <- factor (genero, labels = c("Hombre", "Mujer", NA)) #Cambiar a valor lógico: valor perdido
@@ -161,7 +166,7 @@ remove(list = ls()) #para limpiar entorno de trabajo completo
 
 #Creación de vectores!!
 
-#0. Carga de paquetes y establecimiento de working Directory
+
 
 #1. Cree un vector llamado "artistas" que contenga los nombres de sus 5 artistas musicales favoritos 
 # no es necesario que sean sólo cantantes (pueden ser bandas o solistas, pueden ser dj's, beatmakers,guitarristas,etc, la idea es que sea alguien que a usted le guste mucho)

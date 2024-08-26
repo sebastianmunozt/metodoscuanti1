@@ -15,7 +15,7 @@ class: center, middle, inverse, title-slide
 # Clase 3
 ]
 .subtitle[
-## 2024-08-23
+## 2024-08-26
 ]
 .author[
 ### Sebastián Muñoz
@@ -49,16 +49,19 @@ class: center, middle, inverse, title-slide
 
 - Paradigmas vs estrategias
 - Investigación cuantitativa y la relevancia del uso de números: una reducción útil
-- Implicancias de la forma de trabajo: simplicidad, profundidad, generalidad
+- Implicancias de la forma de trabajo: simplicidad,  generalidad
 - De las formas de medición (ordinaria, fundamental y representacional) a los niveles de medida (nominal, ordinal, escalar, razón)
 - tema/idea, pregunta, objetivos
 
 
+
+
 ---
+class: inverse
 
 ## Tema o idea
 
-- *"es un foco de interés o una situación o fenómeno que se desea conocer más o que ha despertado nuestra curiosidad por motivos problamente extra-académicos"*
+- *"es un foco de interés o una situación o fenómeno que se desea conocer más o que ha despertado nuestra curiosidad por motivos probablemente extra-académicos"*
 
 - *"Puede ser muy amplio y representar casi el campo de una o varias disciplinas"*
 
@@ -73,12 +76,15 @@ class: center, middle, inverse, title-slide
 
 - *"el problema se conforma a partir de los aspectos o dimensiones de una tema que se eligen para un estudio específico"*
 
--*luego, vamos planteando preguntas más generales y otras derivadas"*
+-*"luego, vamos planteando preguntas más generales y otras derivadas"*
 
 -*pregunta: especificar sujeto (a quién),vincularlo a algún concepto (construcción de objeto), acotar en tiempo y espacio, haciendo explícita la necesidad de una respuesta empírica* 
 
 
+
+
 ---
+class: inverse
 
 ## De tema a problema
 
@@ -91,16 +97,10 @@ class: center, middle, inverse, title-slide
 - su pregunta de investigación (bien formulada)
 - escribir dos preguntas de investigación que estén mal formuladas
 
-Llenarlo [aquí](https://docs.google.com/document/d/1YYB5lue-XZKj0flSBVlG15RuvhVZn06dfGGqAqfP1Is/edit).
+Llenarlo [aquí](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit).
 
 
----
-## En Rúbrica para trabajo
 
-
-Formulación (20 puntos)
--	Los/as investigadores/as y desarrollan correctamente su problema (10) y pregunta de investigación (10)
--	Esta última es razonable, perspicaz, creativa y plausible de ser realizada de forma cuantitativa. 
 
 ---
 
@@ -134,6 +134,18 @@ SPSS                                  | R
  control                              |(-) mayor dificultad por uso vía sintaxis
 
 ---
+class: center, middle
+
+![](img\R_publications.png)
+---
+class: center, middle
+
+![](img\R_datascience.png)
+
+
+---
+
+class: center, middle
 
 ![](img\Imagen11.png)
 ---
@@ -141,8 +153,11 @@ SPSS                                  | R
 ---
 ![](img\Imagen13.png)
 ---
+class: center, middle
+
 ![](img\Imagenguarro.png)
 ---
+class: center, middle
 
 ![](img\Imagen14.jpg)
 
@@ -159,6 +174,7 @@ SPSS                                  | R
   - No sólo para ciencias sociales. Muchos otros campos: ciencias naturales, 
 economía, lingüística.
 ---
+class: center, middle
 
 ![](img\Imagen15.jpg)
 ---
@@ -170,11 +186,8 @@ Máscara que intenta hacer de R más amigable, agrega ventanas y botones
 ## RSTUDIO
 
 - Abramos el R Studio
-- Abramos el **proyecto** que dice Taller 1
-- Carguemos **el archivo** que dice Taller 1.RMD
-- Carguemos **script de r** clase 1.R
-- Hagamos Knit en Taller 1.RMD
-- eliminar el #install.packages("xaringanthemer") (si es necesario)
+- Abramos el **proyecto** que clase_3.Rproj
+- Carguemos **script de r** clase_3.R
 
 ---
 ## RSTUDIO
@@ -184,8 +197,16 @@ Máscara que intenta hacer de R más amigable, agrega ventanas y botones
 * Ventana (2): “Entorno de Trabajo”
 * Ventana (3): Sub-pestañas; Files (Historial de archivos), plots (Gráficos), packages (Paquetes), help (ayuda)
 * Ventana (4): Visualizador de resultados.
+
 ---
-## Editor de sintaxis
+
+## RSTUDIO como una película
+
+&lt;img src="img/pelicula1.png" style="width:45%;"&gt;
+&lt;img src="img/pelicula2.png" style="width:45%;"&gt;
+
+---
+## Editor de sintaxis -&gt; como un guión
 
 - Estructura y formato de block de notas.
 - Permite construir sintaxis sin ejecutar de manera directa (la consola hace eso).
@@ -194,7 +215,8 @@ Máscara que intenta hacer de R más amigable, agrega ventanas y botones
 - Se puede ejecutar con botón  “run” o presionando ctrl+enter luego de seleccionar un  texto o  al final de una línea.
 
 ![](img\Imagen18.png)
-## Consola y visor de resultados
+---
+## Consola y visor de resultados -&gt; la acción, lo que realmente sucede
 
 Si se escriben comandos, cada vez que se apriete enter, se ejecutarán.
 Una vez ejecutados correctamente, queda en azul.
@@ -204,7 +226,7 @@ Lo que se visualiza es sólo una “foto”. No queda guardado ni disponible par
 Está listo para operar cuando hay un signo “mayor que” de color azul y luego el cursor titilando
 ![](img\Imagen19.png)
 ---
-## Entorno y directorio de trabajo
+## Entorno y directorio de trabajo -&gt; los personajes
 - Memoria interna del programa y uso de memoria RAM.
 - Entorno de Trabajo temporal (dura la sesión).
 - Uno puede almacenar objetos en la memoria temporal.
@@ -212,29 +234,40 @@ Está listo para operar cuando hay un signo “mayor que” de color azul y lueg
 
 ![](img\Imagen20.png)
 ---
+class: center, middle
+
 ## Estructura Plataforma **R**
 ![](img\Imagen21.png)
 ---
+class: center, middle
+
 ## Foro Stackoverflow
 ![](img\Imagen22.png)
 ---
+class: center, middle
+
 ## Comunidad R-Ladies Global
 ![](img\Imagen23.png)
 ---
+class: center, middle
 ## Curso en línea Coursera 
 ![](img\Imagen24.png)
 ---
+class: center, middle
 ## Curso en línea Udemy 
 
 ![](img\Imagen25.png)
 ---
+class: center, middle
 ## Curso en línea Estación Lastarria
 ![](img\Imagen26.png)
 
 ---
+class: center, middle
 ## Curso en línea Datacamp
 ![](img\Imagen27.png)
 ---
+class: center, middle
 ![](img\Imagen28.png)
 ---
 ## ¿Cómo funciona? – Uso de Sintaxis
