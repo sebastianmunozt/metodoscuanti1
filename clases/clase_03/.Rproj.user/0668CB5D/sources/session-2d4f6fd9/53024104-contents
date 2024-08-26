@@ -22,6 +22,7 @@ a
 
 y <- c(4, 3, 5) # Información del vector en entorno. Función concatenar "c ()"
 z <- c(1.1, 4.67, 5.1, 6.8)
+notas_de_estudiante <- c(1.1, 4.67, 5.1, 6.8)
 letras <- c("hombre", "mujer", "no sabe/no responde")
 
 class(y)
@@ -51,7 +52,7 @@ mitad_y <- y/2
 #5. CONFIGURACIÓN DE UN VECTOR TIPO FACTOR #####
 
 factor <- c("Hombre", "Mujer", "Mujer", "Mujer", "N/S", "N/S", "Hombre", "N/R")
-
+class(factor)
 #le doy la característica de factor
 sexo <- factor(factor)
 
@@ -70,6 +71,7 @@ genero_f
 
 generof <- factor (genero, labels = c("Hombre", "Mujer", "NS-NR")) #Incorporar valores perdidos
 generof <- factor (genero, labels = c("Hombre", "Mujer", NA)) #Cambiar a valor lógico: valor perdido
+
 letras <- c("hombre", "mujer", "no sabe/no responde")
 generof2 <- factor (genero, labels = letras)
 
@@ -79,9 +81,11 @@ table(generof2)
 
 
 # mi primera tabla!####
-
+#para trabajar con paquetes, primero instalo. 
 install.packages("gt")
 install.packages ("tidyverse")
+
+#luego, tengo abrirlo
 library(gt)
 library(tidyverse)
 
@@ -161,6 +165,11 @@ remove(list = ls()) #para limpiar entorno de trabajo completo
 # evitar objetos con funciones que se utilicen
 # r es quisquilloso con mayusculas y minusculas, se crean objetos diferentes
 # se usa convencionalmente los espacios con guión bajo y todo en minúscula.
+
+X <-  c(1,2,5,10)
+Y <-  10
+X*Y
+remove(list = ls())
 
 #Tarea para la casa (revisión en ayudantía)
 
