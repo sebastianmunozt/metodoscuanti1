@@ -350,6 +350,7 @@ background-size: cover
 class: animated, slideInRight
 
 ### 6. Los "lazer": momentos de concentración
+- Olauncher
 - Uso técnica Pomodoro: 0 interrupción por 25 minutos (vía TickTick)
 - Uso de música para concentrarse:
   - Binaural beats: https://www.youtube.com/watch?v=wgcszZNaCfo&list=PLt-P_DkeQXb9s1QBqGt2P1xFyIVQXqLsK
