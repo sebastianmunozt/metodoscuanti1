@@ -1,0 +1,384 @@
+
+---
+title: " Gestión Personal con Herramientas Digitales"
+author: "Sebastián Muñoz-Tapia"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      font-family: "Outfit, Arial, sans-serif"
+---
+
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+#install.packages("pacman")
+pacman::p_load(xaringan,xaringanthemer,tidyverse, gt,kableExtra, xaringanExtra )
+
+
+style_duo_accent_inverse(
+  primary_color = "#FFFFFF",
+  secondary_color = "#808080",
+  inverse_header_color = "#A8FBC8"
+)
+
+
+```
+
+
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_css()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_share_again()
+
+```
+
+
+---
+
+background-image: url("img/1.png")
+background-size: cover
+
+.pull-left[
+## El problema
+
+- ¿Cómo gestionar el tiempo en el mundo académico?
+- Horas dedicadas al estudio, horas dedicada a las redes sociales, hora dedicadas al ocio. 
+- saber priorizar y cómo hacerlo.
+
+
+*"La anarquía es la más alta expresión del orden"* Éliseo Reclus]
+
+
+
+---
+
+
+class: slideInRight, fadeOutLeft, inverse
+
+
+## En esta ayudantía:
+
+
+### 1. Bases y Principios de la gestión personal
+
+### 2. Grandes proyectos
+
+### 3. Tareas recurrentes
+
+### 4. Los deadlines: la agenda
+
+### 5. Las tareas
+
+### 6. Los "lazer": momentos de concentración
+
+### 7. Mantener y regargar energía
+
+---
+
+
+class: inverse, animated, slideInRight
+background-image: url("img/2.png")
+background-size: cover
+
+
+.pull-left[
+
+# 1. Bases y Principios de la gestión personal
+
+
+## 1.1 GTD: "Getting Things Done". David Allen]
+
+
+---
+
+- Un sistema para la productividad sin estrés.
+- Objetivo: Mantener la mente despejada para enfocar la atención en las tareas importantes.
+- Tres pilares fundamentales:
+  - Capturar todo lo que necesita atención.
+  - Tomar decisiones sobre las acciones necesarias.
+  - Organizar el trabajo de manera clara y sistemática.
+
+- Todo muy gringo
+  - *"David Allen (nacido el 28 de diciembre de 1945) es consultor e instructor de productividad. Es el creador de Getting Things Done (GTD), un método de productividad personal...Su carrera profesional incluye trabajos como mago, camarero, instructor de karate, instructor de desarrollo personal y gerente de una agencia de viajes. El asegura haber tenido 35 profesiones antes de tener 35 años"*.]
+  
+  
+  
+---
+## 1.1.1 Los pasos del Método GTD
+
+- Capturar: Recoger todo lo que requiere acción en una *bandeja de entrada*.
+- Clarificar: Decidir qué hacer con cada tarea.
+- Organizar: Clasificar las tareas y proyectos según su *importancia*.
+- Reflexionar: Revisar frecuentemente el sistema para mantenerlo actualizado.
+- Actuar: Ejecutar las tareas más relevantes de manera efectiva.
+
+
+---
+
+class: inverse, animated, slideInRight
+
+
+## 1.1.3. El paso clave - Capturar
+
+- Importancia de Capturar:
+  - Liberar la mente de compromisos pendientes.
+  - Crear un sistema confiable para almacenar toda la información.
+- Herramientas para Capturar:
+  - Uso de bandejas de entrada, cuadernos, aplicaciones digitales: TickTick, Mail, Whatsapp
+  - Todo lo que necesita atención debe estar fuera de la cabeza.
+
+
+---
+
+## 1.1.4. Clarificación y Organización
+
+- Clarificar:
+  - Cada tarea debe ser procesada y asignada a una acción clara.
+  - Preguntas clave: ¿Es accionable? ¿Se puede hacer en menos de dos minutos?
+- Organización:
+  - Agrupar tareas en listas según su contexto o prioridad.
+  - Crear un sistema donde sea fácil acceder a lo que se debe hacer en cada momento.
+  
+---
+
+class: inverse, animated, slideInRight
+
+## 1.1.5. Reflexión y Acción
+
+- Reflexión:
+  - Revisión semanal del sistema para asegurarse de que esté actualizado.
+  - Ajustar prioridades y mantener el control.
+- Acción:
+  - Decidir qué hacer en cada momento basado en el contexto, el tiempo disponible y la energía.
+  - Priorizar las tareas más importantes y actuar de manera eficiente.
+  
+---
+
+## 1.1.6. Tips
+
+
+- Regla de los dos minutos: Si una tarea se puede hacer en menos de dos minutos, hazla de inmediato.
+- Divide grandes proyectos en pasos: Desglosa tareas grandes en acciones concretas y manejables: e.g. no anote en las tareas "hacer la tesis", sino más bien "buscar textos de bibliografía", "leer textos de bibliografía", "sistematizar bibliografía". 
+- Revisión semanal: Dedica tiempo cada semana para revisar tus tareas, organizar tu sistema y ajustar prioridades: ponerse un dia para ordenarse, por ejemplo, el domingo. 
+- Contextos: Organiza las tareas por contexto (en casa, en la oficina, llamadas) para facilitar su ejecución según las circunstancias.
+- Mantén tus listas simples: Evita listas sobrecargadas y mantén solo lo esencial para que no te abrumen.
+
+---
+class: inverse, animated, slideInRight
+background-image: url("img/3.png")
+background-size: cover
+
+.pull-left[
+
+## 1.2 Make Time: "Como enfocarte en lo que importa cada día" - Knapp y Zeratski]
+
+
+
+---
+
+class: inverse
+
+### Jake Knapp:
+Experiencia: Es conocido por haber desarrollado el proceso de Design Sprint durante su tiempo en Google Ventures. Este método permite a equipos resolver problemas y probar ideas en solo cinco días. Trabajó en productos icónicos como Gmail y Google Hangouts.
+Enfoque: Su trabajo se centra en cómo diseñar hábitos y sistemas que mejoren la productividad y el enfoque personal, basándose en su experiencia en empresas tecnológicas donde la distracción es común.
+
+### John Zeratsky:
+Experiencia: También fue socio de Google Ventures, donde trabajó en la implementación de Design Sprints. Antes de eso, desempeñó un papel clave como diseñador en empresas de tecnología como YouTube y Google.
+Enfoque: Zeratsky se ha especializado en optimizar la manera en que las personas interactúan con la tecnología para mejorar su concentración y enfoque. Sus ideas se basan en cómo las distracciones digitales afectan la productividad y cómo contrarrestarlas de manera efectiva.]
+
+---
+
+## 1.2.1 Modos y propuestas
+
+- Modos predeterminados:
+  - "Club de los ajetreados": creencia de que nunca hay tiempo y debes estar siempre ocupado.
+  - "Piscinas infinitas": distracciones constantes de aplicaciones y contenido sin fin.
+- Propuesta de Make Time:
+  - No ahorrar tiempo, sino ganar tiempo para lo que te importa.
+  - Controlar la atención y crear tus propios "ajustes predeterminados".
+  
+---
+class: inverse, animated, slideInRight
+
+## 1.2.2 El Método de Make Time
+
+- Cuatro pasos clave:
+  - Prioridad: Escoge una *tarea diaria* (highlight) que sea importante para ti.
+  - Láser: Mantente enfocado en tu Prioridad y evita distracciones.
+  - Energía: Recarga tu cuerpo para mantener una atención efectiva (comida, ejercicio, sueño, dar  un paseo).
+  - Reflexión: Revisa cómo te fue al final del día y ajusta para mejorar.
+
+**La perfección es una distracción —otro objeto brillante que aleja nuestra atención de las prioridades verdaderas*
+
+---
+
+background-image: url("img/7.png")
+background-size: cover
+
+
+---
+
+## 1.2.3. Paso 1: Prioridad
+
+- Definir Prioridad del día
+  - ¿Qué te dará mayor satisfacción hoy?
+  - ¿Qué actividad o logro será significativo?
+- Criterios para elegir una Prioridad:
+  - Urgencia: ¿Qué es lo más importante que debes hacer hoy?
+  - Satisfacción: ¿Qué actividad te dará mayor sentido de logro?
+  - Alegría: ¿Qué te hará feliz hoy?
+
+  
+---
+
+class: inverse, animated, slideInRight
+
+## 1.2.4. Paso 2: Lázer (Enfoque)
+
+- Elimina distracciones: 
+  - Las redes sociales, correos y aplicaciones son las principales distracciones.
+  - Usa tácticas para mantenerte enfocado:
+  - Apaga notificaciones.
+  - Configura tiempos para revisar correos y redes.
+  - Crea un ambiente de trabajo sin interrupciones.
+  - Desconexión intencional: Aprende a decir "no" y bloquea espacios de tiempo solo para tu Prioridad.
+  
+  
+---
+
+## 1.2.5.  Paso 3 y 4 – Energía y Reflexión
+- Energía:
+  - Cuidar el cuerpo para mantener la concentración.
+  - Prácticas recomendadas: ejercicios cortos, buena alimentación, descanso adecuado.
+- Reflexión:
+  - Al final del día, evalúa:
+  - ¿Lograste trabajar en tu Prioridad?
+  - ¿Qué distracciones tuviste? ¿Cómo mejorarás mañana?
+  - Ajusta las tácticas según lo que mejor funcione para ti.
+  
+---
+
+class: inverse, animated, slideInRight
+
+### 2. Grandes proyectos
+- Listas a largo plazo
+- Listas algún día
+
+
+---
+
+## En términos concretos (baje en materiales)
+
+- Hago esas listas: 
+  - Haga la lista de lo que quiere hacer en el año!
+- Organizo un calendario: 
+  - los hitos del año!: laborales, académicos, profesionales
+  - baje, imprima y pegue el calendario en un lugar donde lo vea!
+  
+---
+class: inverse, animated, slideInRight
+
+### 3. Tareas recurrentes
+- Hago mi horario!
+- Posiciono actividades habituales imperativas
+- Posiciono actividades que quiero que sean habituales
+- Incluya tiempos de desplazamiento
+- Incluya ayuda a familiares y todo lo que estime conveniente
+- Sea realista
+- Bloquee horarios! (para estudio, ocio)
+- Unx trabajadorx trabaja 8 horas diarias, en otros países 6. Usted puede "trabajar" 6 incluyendo el tiempo que va a clases? 
+
+
+---
+### 3. Tareas recurrentes
+- Llevelas a google calendar: escritorio y celular
+
+---
+
+background-image: url("img/4.png")
+background-size: cover
+
+
+---
+
+class: inverse, animated, slideInRight
+
+### 4. Los deadlines: la agenda
+- Lo que tiene si o si una fecha límite
+- Llevelos a google calendar
+
+
+---
+### 5. Las tareas
+- No tienen necesariamente fecha límite, pero son partes de un proyecto mayor 
+- Uso de TikTik: https://ticktick.com/
+- Establecer la prioridad del día
+- Utilizar acciones
+- Desagregue en acciones concretas 
+
+
+
+---
+background-image: url("img/8.png")
+background-size: cover
+
+---
+background-image: url("img/5.png")
+background-size: cover
+
+
+
+
+---
+
+### 5.1 Las tareas
+- Ordenar el mail con etiquetas: @acción próxima, @en_espera, @referencia_académica, @gestion_personal
+- Ordenar whatsapp: archivar lo resuelto
+- Otras cosas: directamente a TickTick
+
+
+---
+
+class: animated, slideInRight
+
+### 6. Los "lazer": momentos de concentración
+- Uso técnica Pomodoro: 0 interrupción por 25 minutos (vía TickTick)
+- Uso de música para concentrarse:
+  - Binaural beats: https://www.youtube.com/watch?v=wgcszZNaCfo&list=PLt-P_DkeQXb9s1QBqGt2P1xFyIVQXqLsK
+  - Ambient: https://open.spotify.com/playlist/12lPxwl1SVPlZ8LPO6ECHa
+  
+---
+
+background-image: url("img/9.png")
+background-size: cover
+  
+---
+
+### 7. Mantener y regargar energía
+- Soy nocturno, diurno
+- Uso de café, te, mate, chocolate (30 minutos después!)
+- Siesta
+- Buena alimentación
+- Deporte
+- Meditación
+- Vida Social y tiempo de ocio
+
+
+----
+
+
+# Fin
+
+
+  
+
+
+
