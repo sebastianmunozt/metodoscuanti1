@@ -69,11 +69,10 @@ Nota: En general las ayundantías son online, a excepción de algunas con Matía
 
 | n°   | Fecha       | Contenido                                                                      | Material   |
 |------|-------------|-------------------------------------------------------------------------------|------------|
-| 2,5  | 29-8-2024   | Ayudantía 1: Gestión del tiempo en la vida académica: GTD, MT, Pomodoro y Calendario | [`PPT`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_01/presentacion#1) · 
-[`Materiales`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantia_01/materiales/materiales.rar) · [`Bibliografía`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantia_01/bibliografia/bibliografia.rar) |
+| 2,5  | 29-8-2024   | Ayudantía 1: Gestión del tiempo en la vida académica: GTD, MT, Pomodoro y Calendario | [`PPT`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_01/presentacion#1) · [`Materiales`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantia_01/materiales/materiales.rar) · [`Bibliografía`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantia_01/bibliografia/bibliografia.rar) |
 | 3,5  | 5-9-2024    | Ayudantía 2: Tener instalado R; Ingresar valores, creación de vectores y tablas: R, RStudio, Rtools | Pendiente  |
 | 5,5  | 12-9-2024   | Ayudantía 4: Proyectos, funciones, manejo de base de datos                      | Pendiente  |
-| 9,5  | 24-10-2024  | Ayudantía 5: Zotero, Proceso de operacionalización y escritura académica                | [`Ayudantia zotero`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_zotero/ayudantia_zotero.pptx)  |
+| 9,5  | 24-10-2024  | Ayudantía 5: Zotero, Proceso de operacionalización y escritura académica         | [`Ayudantia zotero`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_zotero/ayudantia_zotero.pptx)  |
 | 10,5 | 31-10-2024  | Ayudantía 6: Tidyverse                                                         | Pendiente  |
 | 11,5 | 7-11-2024   | Ayudantía 7: ggplot                                                            | Pendiente  |
 
