@@ -164,8 +164,8 @@ c19 <- read_csv(file ="Fuentes/Bases adicionales/Covid19VacunasAgrupadas.csv")
 ___ <- read_csv(file ="_________")
 
 #forma de operar:
-# a) estoy situado en mi projecto, 
-# b) apreto comillas""
+# a) estoy situado en mi proyecto, 
+# b) pongo file= comillas""
 # c) para buscar el archivo que quiero, puedo retroceder (../) hacia carpetas anteriores o buscar
 # d) realizar la búsqueda con tecla tab, evita equivocaciones en la escritura. 
 
@@ -192,7 +192,7 @@ base.adquisiciones1 <- read.xlsx(xlsxFile = "Fuentes/Bases adicionales/Adquisici
                                  sheet = 1, startRow = 4) 
 #chequeo base: ahí si me aparece bien lo que quiero 
 
-#práctica: abrir achivo, pestaña 2, leer desde 3 fila.
+#práctica: abrir el mismo archivo, pero ahora desde pestaña 2 y leer los datos desde 3 fila.
 # asignelo como vuelos
 vuelos <- read.xlsx(xlsxFile = "Fuentes/Bases adicionales/Adquisiciones y vuelos covid.xlsx", 
                     sheet =_____, startRow =_______)
