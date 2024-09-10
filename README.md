@@ -135,11 +135,11 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 
 
 - [`[Canales (2006) Metodologías de investigación social - Leer textos de Asun! ]`](https://sebastianmunozt.github.io/metodoscuanti1/bibliografía/basica/2006Canales.pdf)
-- [`[Boccardo y Ruiz (2019) RStudio para Estadística Descriptiva en Ciencias Sociales]`](https://sebastianmunozt.github.io/metodoscuanti1bibliografía/basica/2019BoccardoRuiz.pdf)
+- [`[Boccardo y Ruiz (2019) RStudio para Estadística Descriptiva en Ciencias Sociales]`](https://sebastianmunozt.github.io/metodoscuanti1/bibliografía/basica/2019BoccardoRuiz.pdf)
 - [`[Lemieux (2010)]`](https://sebastianmunozt.github.io/metodoscuanti1/bibliografía/basica/2010Lemieux.pdf)
 - [`[Hernandez, Sampieri y Torres (2018)]`](https://sebastianmunozt.github.io/metodoscuanti1bibliografía/basica/2018HernandezSampieriTorres.pdf)
 - [`[Marradi, Archenti, Piovani (2007)]`](https://sebastianmunozt.github.io/metodoscuanti1bibliografía/basica/2007MarradiArchentiPiovani.pdf)
-- [`[Sautu, Bonolio, Dalle (2005)]`](https://sebastianmunozt.github.io/metodoscuanti1bibliografía/basica/2005SautuBonoloiDalle.pdf)
+- [`[Sautu, Bonolio, Dalle (2005)]`](https://sebastianmunozt.github.io/metodoscuanti1/bibliografía/basica/2005SautuBonoloiDalle.pdf)
 
 **Complementaria**
 
