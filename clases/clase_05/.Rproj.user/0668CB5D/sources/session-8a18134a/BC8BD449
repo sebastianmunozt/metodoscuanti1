@@ -1,0 +1,28 @@
+{
+    "id": "BC8BD449",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1726844811403.0,
+    "source_on_save": false,
+    "relative_order": 6,
+    "properties": {
+        "id": "a5e0df752c724612a4e7a543941174ff",
+        "name": "preguntas_duplas",
+        "title": "preguntas_duplas",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 7575181469796298332,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1726844811403,
+    "read_only": false,
+    "read_only_alternatives": []
+}
