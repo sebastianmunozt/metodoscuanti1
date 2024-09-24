@@ -73,7 +73,7 @@ Nota: En general las ayundantías son online, a excepción de algunas con Matía
 | 2,5  | 29-8-2024   | Ayudantía 1: Gestión del tiempo en la vida académica: GTD, MT, Pomodoro y Calendario | [`PPT`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_01/presentacion#1) · [`Materiales`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_01/materiales/materiales.rar) · [`Bibliografía`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_01/bibliografia/bibliografia.rar) · [`Ver`](https://youtu.be/nIHVN8NFBnk)|
 | 3,5  | 5-9-2024    | Ayudantía 2: Tener instalado R; Ingresar valores, creación de vectores y tablas: R, RStudio, Rtools | Pendiente  |
 | 5,5  | 12-9-2024   | Ayudantía 4: Proyectos, funciones, manejo de base de datos                      | Pendiente  |
-| 9,5  | 24-10-2024  | Ayudantía 5: Zotero, Proceso de operacionalización y escritura académica         | [`Ayudantia zotero`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_zotero/ayudantia_zotero.pptx)  |
+| 9,5  | 03-10-2024  | Ayudantía 5: Zotero, Proceso de operacionalización y escritura académica         | [`Ayudantia zotero`](https://sebastianmunozt.github.io/metodoscuanti1/ayudantias/ayudantia_zotero/ayudantia_zotero.pptx)  |
 | 10,5 | 31-10-2024  | Ayudantía 6: Tidyverse                                                         | Pendiente  |
 | 11,5 | 7-11-2024   | Ayudantía 7: ggplot                                                            | Pendiente  |
 
@@ -97,8 +97,8 @@ Nota: En general las ayundantías son online, a excepción de algunas con Matía
 |----|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | 20-8-2024   | Tarea 1: Defina su grupo y traiga dos temas de investigación por grupo                                                                     | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
 | 2  | 10-9-2024   | Tarea 2:Seleccionar idea final, problematizar y generar: pregunta, objetivos, hipótesis y relevancia +  Tener instalado R y desarrollar tarea | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
-| 3  | 1-10-2024    | Tarea 3: Hacer 2 fichas bibliográficas por persona                                                                                             |  enviar por TEAMS y a: semunoz@uahurtado.cl|
-| 4  | 8-10-2024  | Tarea 5: Especificar Marco Teórico y Marco Metodológico: estrategia metodológica, objetivos, supuestos de experimentación                  | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
+| 3  | 15-10-2024    | Tarea 3: Hacer 2 fichas bibliográficas por persona                                                                                             |  enviar por TEAMS y a: semunoz@uahurtado.cl|
+| 4  | 22-10-2024  | Tarea 5: Especificar Marco Teórico y Marco Metodológico: estrategia metodológica, objetivos, supuestos de experimentación                  | [Llenar](https://docs.google.com/document/d/1pzb7SxNylHTOBGxFlS3UGeIbg9CiSH5hJAcYj3L-r4s/edit)                                  |
 | 5  | 29-10-2024  | Tarea 6: Traer preguntas de cuestionario y digitalizarlas en Google Forms                                                                  |         enviar por TEAMS y a: semunoz@uahurtado.cl                         |
 
 
