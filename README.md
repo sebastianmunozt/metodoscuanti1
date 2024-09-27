@@ -158,7 +158,6 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 |       |                                     | LEIVA VALDERRAMA, ANTONIA SOFÍA         |
 |       |                                     | SALAZAR BRAVO, RICARDO IGNACIO          |
 |       |                                     | VERDUGO MONARDES, VALERIA ALEJANDRA     |
-|-------|-------------------------------------|-----------------------------------------|
 
 
 
