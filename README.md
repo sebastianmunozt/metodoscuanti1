@@ -128,35 +128,30 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 |       |                                     | JORQUERA GUTIÉRREZ, CARLA ANDREA        |
 |       |                                     | PALMA ACEVEDO, FRANCISCA ANTONIA        |
 |       |                                     | SALAZAR ACEVEDO, NAZARETH VARINIA       |
-|-------|-------------------------------------|-----------------------------------------|
 | 2     | Prácticas de autocuidado sexual     | ARAYA RIVERA, FRANCISCA JESÚS           |
 |       |                                     | LA RIVERA VARAS, ISIDORA ANTONIA        |
 |       |                                     | MUÑOZ MARCHANT, MARTINA IGNACIA         |
 |       |                                     | NAVARRO NÚÑEZ, CAMILA CONSTANZA         |
 |       |                                     | RAMOS RAMOS, AMELIA                     |
 |       |                                     | SARRO POLONI, CRISTINA ESPERANZA        |
-|-------|-------------------------------------|-----------------------------------------|
 | 3     | Satisfacción con docentes carrera   | CATEJO GONZÁLEZ, TOMÁS IGNACIO          |
 |       |                                     | EMILIA ANGÉLICA, FIS ESTRADA            |
 |       |                                     | FARÍAS NAVARRO, DANIELA MABEL           |
 |       |                                     | LAGOS BUSTOS, NINON FRANCISCA           |
 |       |                                     | SÁNCHEZ TORO, ALAN JESÚS                |
 |       |                                     | VALENZUELA GONZÁLEZ, VICENTE IGNACIO    |
-|-------|-------------------------------------|-----------------------------------------|
 | 4     | Hábitos de estudio y rendimiento    | DURÁN ESCUTI, JAVIERA MARCELA           |
 |       |                                     | GAMBOA GAJARDO, CONSTANZA MONSERRATT    |
 |       |                                     | GONZÁLEZ VALENZUELA, CARLA JAVIERA      |
 |       |                                     | GUILLERMO ANDRÉS, REYES AGUIRRE         |
 |       |                                     | LLANOS FLORES, LUKAS BENJAMÍN           |
 |       |                                     | VALLE CASTILLO, BENJAMÍN ANTONIO        |
-|-------|-------------------------------------|-----------------------------------------|
 | 5     | Victimización y delincuencia        | CAMPOS MAYANÉS, RAPHAEL IGNACIO         |
 |       |                                     | CANALA-ECHEVARRIA BELTRÁN, AMILCAR MARTÍN |
 |       |                                     | CASTRO MUÑOZ, CATALINA CONSTANZA        |
 |       |                                     | KIESSLING KIESSLING, JUAN SEBASTIAN     |
 |       |                                     | MANCILLA MARTÍNEZ, JONATHAN GABRIEL     |
 |       |                                     | NUÑEZ VARELA, JOSEFINA IGNACIA          |
-|-------|-------------------------------------|-----------------------------------------|
 | 6     | Uso de redes sociales y Estrés      | ALLENDE ÁLVAREZ, CATALINA CONSTANZA     |
 |       |                                     | HUINCACHE MORALES, BELÉN ANAIZ          |
 |       |                                     | HUINEO CABEZA, LLACOLÉN PENÉLOPE        |
