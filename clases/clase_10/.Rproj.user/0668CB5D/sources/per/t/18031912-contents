@@ -5,7 +5,7 @@
 base.covid <- readRDS (file = ".../donde_está_según_mi_proyecto")
 
 #ejemplo
-tweets_vacunas <- readRDS (file = "Fuentes/Bases adicionales/vacuna.tweets.RDS")
+tweets_vacunas <- readRDS (file = "fuentes/generales/vacuna.tweets.RDS")
 
 #RDS: base de datos de R, no requiere instalar un paquete adicional. 
 
@@ -15,7 +15,7 @@ tweets_vacunas <- readRDS (file = "Fuentes/Bases adicionales/vacuna.tweets.RDS")
 library (tidyverse) 
 
 #read.csv()####
-c19 <- read_csv(file ="Fuentes/Bases adicionales/Covid19VacunasAgrupadas.csv")
+c19 <- read_csv(file ="fuentes/generales/Covid19VacunasAgrupadas.csv")
 
 #forma de operar:
 # a) estoy situado en mi proyecto, 
@@ -31,9 +31,11 @@ c19 <- read_csv(file ="______")
 #read.xlsx(): xlsx ####
 # abrir archivo, en pestaña 1 y que empiece en fila 4 (hay información no relevante antes)
 #la función startRow = ; indica desde que fila empezar
-base.adquisiciones1 <- read.xlsx(xlsxFile = "Fuentes/Bases adicionales/Adquisiciones y vuelos covid.xlsx", 
+base.adquisiciones1 <- read.xlsx(xlsxFile = "fuentes/generales/Adquisiciones y vuelos covid.xlsx", 
                                  sheet = 1, startRow = 4) 
+# ¿Por qué no funciona?
 
+# library(openxlsx)
 
 # Parte II: Exploración Inicial de base ---------------------------------------------
 # 1. glimpse()#### 
@@ -42,7 +44,7 @@ base.adquisiciones1 <- read.xlsx(xlsxFile = "Fuentes/Bases adicionales/Adquisici
 #muestra los primeros valores de cada una de ellas
 
 #estructura
-glimpse(base)
+# glimpse(base)
 
 #ejemplo
 glimpse(base.adquisiciones1)
@@ -52,7 +54,7 @@ glimpse(base.adquisiciones1)
 #primero observo las columnas/variables
 names(base.adquisiciones1)
 
-#luego veo variables las categorías únicas de variables en específico
+#luego veo variables las categorías únicas (las alternativas) de variables en específico
 #estructrura
 #unique(base$variable)
 
@@ -77,10 +79,9 @@ prop.table(table(base.adquisiciones1$ESTADO.DE.PROCES))*100
 
 #Práctica 
 #A partir de la siguiente base:
-base_práctica <- readRDS("Fuentes/base_covid_sample.RDS")
+base_práctica <- readRDS("fuentes/generales/base_covid_sample.RDS")
 
 #1) Apliquen la función  glimpse (nombre_base_datos). 
-
 
 #1.1) al observar la base de esa forma: ¿Qué tipo de información crees que tiene la base de datos?
 
@@ -105,8 +106,8 @@ table(base_práctica$sexo,
 
 #levanto bases
 #distintos tipos de archivos
-base_prueba <- read.csv("Fuentes/Bases adicionales/Covid19VacunasAgrupadas.csv")
-base_prueba2 <- read.xlsx("Fuentes/Bases adicionales/Adquisiciones y vuelos covid.xlsx", 
+base_prueba <- read.csv("fuentes/generales/Covid19VacunasAgrupadas.csv")
+base_prueba2 <- read.xlsx("fuentes/generales/Adquisiciones y vuelos covid.xlsx", 
                           startRow = 4)
 #realizo otra base
 base_prueba3 <- data.frame (x = c(1,2,3),
@@ -138,7 +139,7 @@ write.xlsx(x = base.adquisiciones1,file = "resultados/cuadro1.xlsx")
 # 01. Introducción --------------------------------------------------------
 
 # ¿qué es tidyverse:
-# paquete de paquetes, le da una coherencia a todos estos paquetes en cuanto los parametros
+# paquete de paquetes, le da una coherencia a todos estos paquetes en cuanto los parámetros
 # implica una "nueva escuela" para programar.
 # tiene que ver con paquetes para: 
 # a) importación
@@ -148,7 +149,7 @@ write.xlsx(x = base.adquisiciones1,file = "resultados/cuadro1.xlsx")
 # e) modelar, 
 # f) comunicar
 
-install.packages("tidyverse")
+# install.packages("tidyverse")
 library(tidyverse)
 
 #atajo (shorcut) asignador: alt-
@@ -163,7 +164,7 @@ library(tidyverse)
 #c) poner lo que se quiere hacer (la operación) (a la derecha o abajo)
 
 # es útil para concatenar diversas opereraciones, sobre mismo objeto. 
-base_covid <- readRDS("Fuentes/base_covid_sample.RDS")
+base_covid <- readRDS("fuentes/generales/base_covid_sample.RDS")
 
 #ir escalando
 #ejemplo: obtener función relativa por sexo: base, sexo, qué. 
@@ -292,6 +293,8 @@ names(base_covid_seleccion)
 base_covid_seleccion <- base_covid %>%
   select(starts_with("residencia") |
          1,2,3)
+#chequeo
+names(base_covid_seleccion)
 
 #práctica####
 #seleccione otras 3 variables de base_covid y cree una nueva base llamanda base_covid_3
@@ -479,7 +482,7 @@ table(base_covid_practica_seleccion1$asistencia_respiratoria_mecanica)
 
 
 #Tarea para la casa
-base_covid_practica <- readRDS("Fuentes/base_covid_sample.RDS")
+base_covid_practica <- readRDS("fuentes/generales/base_covid_sample.RDS")
 
 #Práctica general####
 #1) Crear un objeto desde base_covid_sample.RDS 
