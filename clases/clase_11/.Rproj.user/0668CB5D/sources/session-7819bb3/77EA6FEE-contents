@@ -1,0 +1,243 @@
+---
+title: "Violencia y Música Urbana"
+author: "Grupo Música Urbana CMUS - S. Muñoz & C. Spencer"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      font-family: "Outfit, Arial, sans-serif"
+---
+  
+
+  
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+#install.packages("pacman")
+pacman::p_load(xaringan,xaringanthemer,tidyverse, gt,kableExtra, xaringanExtra )
+
+
+style_duo_accent_inverse(
+  primary_color = "#FFFFFF",
+  secondary_color = "#808080",
+  inverse_header_color = "#A8FBC8"
+)
+
+
+```
+
+
+
+```{r xaringan-animate-css, echo=FALSE}
+xaringanExtra::use_animate_css()
+xaringanExtra::use_tachyons()
+xaringanExtra::use_share_again()
+
+```
+
+
+
+# Objetivos
+
+## Interpretaciones sobre la relación entre Violencia y Música Urbana
+## Algunas discusiones siguiendo los Hip Hop Studies
+  
+  
+---
+background-image: url("img/3.png")
+background-size: cover
+
+class: middle, slideInRight, fadeOutLeft 
+
+## Música Urbana y Violencia
+-	La Música Urbana **produce** Violencia en la juventud
+-	La sociedad es violenta y la Música Urbana **refleja** lo que pasa 
+-	La Música Urbana **da sentido** al código callejero 
+-	La Música Urbana es una **alternativa** a la Violencia, ya sea artístico-simbólica o económico-laboral 
+-	Todas las anteriores.  
+
+---
+class: inverse, center, middle, slideInRight, fadeOutLeft 
+## Conteste en Mentimeter
+
+.pull-left[
+- menti.com (4718 1997)]
+
+.pull-right[
+![cash](img/menti.png)]
+
+
+
+---
+background-image: url("img/3.png")
+background-size: cover
+
+class: middle, slideInRight, fadeOutLeft 
+##	La Música Urbana *produce* Violencia en la juventud - tesis del parental advisory
+
+- Visión más conservadora
+- Poco importante en academia 
+- Advertencias o censuras hacia la música (vinculo con "narcocultura")
+
+---
+class: inverse,  middle, slideInRight, fadeOutLeft 
+## Digital Street Culture Decoded: Why criminalizing drill music is Street Illiterate and Counterproductive (Ilan 2020)
+
+- Críticas: 
+  - Ineficaz ("Caso del Drill"): (a) formas de saltear censura; (b) riesgo de estigmatización y criminalización: refuerzo de prejuicios (raciales, en particular; subalternos en general); (C) artistas y escuchas lo ven como opresivos e injustos: *sienten que se les silencia y se les niega la oportunidad de expresarse y prosperar*; (d) atacan flanco más débil, más que causas profundas.
+- Subalternos (artista y públicos) también pueden son capaces de hacer e interpretar ficciones (Pinochet & Jordan, 2024)
+    
+---
+background-image: url("img/1.png")
+background-size: cover
+class: middle, slideInRight, fadeOutLeft 
+
+## Analfabetismo callejero
+.pull-left[
+- *"autoridades británicas (policía, tribunales y autoridades locales) interpretan mal los simulacros y, como resultado, actúan de una manera contraproducente para el control del crimen"* 
+- *"ignora la ambigüedad, la fanfarronería y la hibridación entre realidad y ficción que son características del género y descuida la advertencia de que el material web debe leerse críticamente"*.
+
+- "el lenguaje del rap está codificado, significados que solemos atribuirle al rap para los raperos significa otra cosa" (Pecqueux, 2004; quien critica esa versión)]
+
+---
+background-image: url("img/3.png")
+background-size: cover
+
+class:  middle, slideInRight, fadeOutLeft 
+##	La sociedad es violenta y la Música Urbana *refleja* lo que pasa - tesis de lo relatores y las causas estructurales.
+- Suele defenderla los artistas, fanáticos, periodistas cercanos a estas músicas o académicos "progresistas".
+- Afirma: que hay causas económicas, sociales, poder que generan una sociedad violenta, los artistas la relatan. 
+- Peligro de "buenismo": negarse a observar lo que la música *si* produce
+- Pregunta: ¿Cuál es la influencia de la música?
+
+---
+class:  inverse, middle, slideInRight, fadeOutLeft 
+
+## “Tomé una decisión de mejorar las letras”: Pablo Chill-E anunció un cambio de contenido en sus canciones
+
+“Yo igual empecé a hacer música a los 14 (años), entonces tengo letras más crudas que otras, pero con el tiempo igual <u>me he dado cuenta que los niños y la juventud en sí lo ve a uno como ejemplo</u>, entonces uno igual tiene que dar el buen ejemplo. Por eso he estado pensando harto y me doy cuenta de que igual hay mucha gente mirándome pa’ arriba: hay que tratar de hacer las cosas bien”.
+
+Siguiendo la misma línea, Pablo Acevedo –nombre de pila– es autocrítico y logra tomar conciencia de lo que significan artistas mediáticos como él para el consumidor del género. En este sentido, el joven de 24 años sostuvo que “Ya somos artistas de talla más grande, obviamente <u>vamos a seguir cantando la realidad, pero igual hay que tener un poquito de cuidado de la forma de la que uno dice las cosas</u>. Yo soy autocrítico con lo que somos el género urbano y todos los cabros... <u>De repente se glorifican cosas malas, pero es porque no se dan cuenta porque son ignorantes: porque nadie les he enseñado y son las cosas que viven, lamentablemente”</u>.
+
+
+---
+background-image: url("img/3.png")
+background-size: cover
+
+class:  middle, slideInRight, fadeOutLeft 
+##	La Música Urbana **da sentido** al código callejero (tesis del street-code)
+- Gangstas, Thugs, and Hustlas: Identity and the Code of the Street in Rap Music
+ (Kubrin, 2005)
+  - se reconoce que hay causas estructurales, pero existe un street-code que le da sentido: 
+  - está en la calle y en el rap (especialmente el gangsta-rap, hoy drill, trap, ¿mambo?)
+  - más que causar directamente, ayuda a organizar los sentidos mediante una identidad social violenta: "no llevan a actuar, pero entregan una estructura para contar, un recurso interpretativo para entender la identidad y conducta violenta".
+  
+
+---
+## Il nene de oro
+.pull-left[
+Lo' O’Block 27 y roba toa' mi 17  
+Si me encabrono llamo a sonar lo' AK-47  
+*Movimo' lo' kilo de perico y los kilo' de crack*  
+Lo' tecato en la esquina guerreando con lo' gile quien vende ma'  
+En el punto, longi que veo borroso yo le achunto  
+Con pussy, nigga y feka, cabrone', yo no me junto  
+Con el Pablito en code y pasti dejamo al Kaydy  
+Y en el aeropuerto con mi puta parezco Lil Baby  
+De arriba a abajo *la tengo vestia' entera' Louis V'*  
+Bad bitch, *to' mis negro' reale', ninguno snitch*  
+Ando con bitche', el fetty contando  
+*Me voy a hacerme rico*, puta, y no salgo del bando  
+Tenemo' lo' R y el contrabando  
+Saben que el 1.7 por ley está controlando  
+En la Mercedes tintea'  
+To' designer Balmain  
+Tengo puta' que vienen bajando de la U.S.A  
+Esto e' easy, mi bloque ready, ya no estamo' en crisi'  
+Cabrón, ya ni me pego, ya tengo el cuello freeze. ] 
+
+.pull-right[
+![cash](img/ilnene2.jpg)
+]
+---
+
+class:  middle, slideInRight, fadeOutLeft 
+.pull-left[
+- Hip Hop Wars (Rose, 2008): gangstas (ganster), pimps (proxenetas), and hoes (putas): estereotipos en el rap que son explotados de forma mediática.
+
+-  Gang glocalization: How the global mediascape creates and shapes local gang realities (Van Hellemont, 2019): La comparación metafórica es el mecanismo central del proceso de glocalización de las pandillas, y las actividades de creación de mitos son sus principales dispositivos. Uso de películas, series y música para nombrary construir narrativas sobre lo que les toca vivir. ]
+  
+.pull-right[
+![cash](img/2pacbiggie.png)
+]
+
+
+---
+class: inverse, middle, slideInRight, fadeOutLeft 
+##	La Música Urbana es una *alternativa* a la Violencia, ya sea artístico-simbólica (tesis de la khatarsis simbólica), económico-laboral (tesis de la salida). 
+- Palabra sustituye al acto, es una "valvula de escape":
+  - "…aunque la violencia es real, el acto de pronunciarla sirve en realidad para distanciarnos de ella" (Pecqueux, 2004, p. 57)
+ - "La provocación, en el rap, es una forma de descargar la rabia" (Boucher, 1998: 231)." (Pecqueux, 2004, p. 58). 
+- Problema: se plantea una solución "psicologica" y "simbólica" a un problema social. 
+
+
+---
+class: middle, slideInRight, fadeOutLeft 
+
+## Katharsis política 
+- La violence du rap comme katharsis : vers une interprétation politique (Pecqueux, 2004):
+  - en ciertas versiones del rap en la que se plantea una relación amor/odio nosotros (raperos y oyentes), frente a un ellos (policías, agentes judiciales, jueces, políticos, etc.; todas categorías representativas de las instituciones o del sistema vigente)
+- la violencia se puede leer como una katharsis política: "más que alejar o expulsar la inclunación al mal, puede mostrar lo que puede ser el peor de los resultados de la convivencia, es decir, los límites entre los que se puede alcanzar o aspirar a una buena convivencia". 
+  - Muestra los límites del vivir juntos, un desorden fundador. 
+- Es político, pero es peligroso. 
+
+
+---
+class: inverse, middle, slideInRight, fadeOutLeft 
+
+## Entender las violencias y sus complejidades en relación a la Música Urbana de forma situada.  
+.pull-left[
+-  Pequeux, 2004 sobre rap: necesidad de esquemas particulares (no total ni exhaustivo), con encuadres y modalizaciones específicas, considerando como se enmarcan las violencias. 
+- Muñoz-Tapia, 2024: la Música urbana del escandalo a un caso, que merezca la discusión pública. Observar sus complejidades y debatir posibles acciones seriamente (Boltanski)]
+
+.pull-right[
+*En Tratado contra el método, Paul Feyerabend sostiene que los científicos suelen descartar los datos empíricos que hacen peligrar sus teorías en aras de la condición de consistencia. Como el físico austríaco, creo que tales desequilibrios suelen ampliar nuestras nociones del mundo. Y eso, para mí, ya es razón suficiente para que sean bienvenidos* (Mendevil, 2016)]
+
+---
+class:  middle, slideInRight, fadeOutLeft 
+## Comunicado Público Coordinadora Shishigang ante caso Peso Pluma Viña
+
+- Como Coordinadora Social Shishigang (CSSG) nos pronunciamos en relación a un tema que ha captado la atención de todos: la narcocultura. Este debate ha señalado a la música urbana como responsable de la delincuencia y el narcotráfico, generando críticas hacia el contenido de las canciones e incluso propuestas legislativas que buscan criminalizar el género. 
+- <u>Causas estructurales</u>: Históricamente, Chile ha mantenido una actitud de marginación, silenciamiento y ocultamiento hacia las infancias y la juventud, especialmente aquellas provenientes de periferias y territorios vulnerables. El Estado y los políticos no han ofrecido soluciones constructivas para estas áreas, dejando desamparada a toda una generación que lucha con las herramientas que tiene en sus manos para salir adelante.
+
+
+---
+class:   inverse, middle, slideInRight, fadeOutLeft 
+- <u>Complejidades internas</u>: 
+  - El género urbano tiene contradicciones, porque es la realidad que nos ha tocado vivir, pero esta vez se ha ido encauzando en un movimiento que está rompiendo con todos los patrones sociales de exclusión y marginación, avanzando en instalar sueños y esperanzas de cooperación y solidaridad.
+  - Siendo sinceros, no podemos afirmar haber trabajado con todos los cantantes de música urbana, ni que todos compartan las mismas intenciones que nuestro compañero Pablo Chill-e y la labor de la Coordinadora Social Shishigang. 
+
+- <u>Alternativa</u>: 
+  - Frente a esto, es crucial destacar que muchos de estos artistas urbanos comparten historias y mensajes de superación, demostrando que es posible lograrlo y resaltando la importancia de ayudarse mutuamente, pensar en sueños comunes y aspirar a una vida mejor para sus familias y entornos.
+  - este movimiento ha representado una luz de esperanza para niños, niñas y adolescentes junto a sus familias puedan salir de estas circunstancias. 
+
+---
+
+
+class:    middle, slideInRight, fadeOutLeft 
+
+### Bibliografia
+
+- Ilan, J. (2020). Digital Street Culture Decoded: Why criminalizing drill music is Street Illiterate and Counterproductive. *The British Journal of Criminology, 60*(4), 994–1013. [https://doi.org/10.1093/bjc/azz086](https://doi.org/10.1093/bjc/azz086)
+- Kubrin, C. E. (2005). Gangstas, Thugs, and Hustlas: Identity and the Code of the Street in Rap Music. *Social Problems, 52*(3), 360–378. [https://doi.org/10.1525/sp.2005.52.3.360](https://doi.org/10.1525/sp.2005.52.3.360)
+- Muñoz-Tapia, S. (2024). Las complejidades de la música urbana chilena. CIPER Chile. [https://www.ciperchile.cl/2024/01/23/las-complejidades-de-la-musica-urbana-chilena/](https://www.ciperchile.cl/2024/01/23/las-complejidades-de-la-musica-urbana-chilena/)
+- Pecqueux, A. (2004). La violence du rap comme katharsis: Vers une interprétation politique. *Volume !, 3*(2), 55–70. [https://doi.org/10.4000/volume.1959](https://doi.org/10.4000/volume.1959)
+- Pinochet Cobos, C., & Jordán González, L. (2024). Los «pecados» de Peso Pluma. CIPER Chile. [https://www.ciperchile.cl/2024/01/11/los-pecados-de-peso-pluma/](https://www.ciperchile.cl/2024/01/11/los-pecados-de-peso-pluma/)
+- Rose, T. (2008). *The hip hop wars: What we talk about when we talk about hip hop--and why it matters*. BasicCivitas.
+- Van Hellemont, E., & Densley, J. A. (2019). Gang glocalization: How the global mediascape creates and shapes local gang realities. *Crime, Media, Culture: An International Journal, 15*(1), 169–189. [https://doi.org/10.1177/1741659018760107](https://doi.org/10.1177/1741659018760107)
+
+

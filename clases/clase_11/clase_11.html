@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Clase 5</title>
+    <title>Clase 11</title>
     <meta charset="utf-8" />
     <meta name="author" content="Sebastián Muñoz" />
-    <meta name="date" content="2024-08-12" />
+    <meta name="date" content="2024-11-04" />
     <script src="clase_11_files/header-attrs/header-attrs.js"></script>
+    <link href="clase_11_files/animate.css/animate.xaringan.css" rel="stylesheet" />
+    <link href="clase_11_files/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="clase_11_files/clipboard/clipboard.min.js"></script>
+    <link href="clase_11_files/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="clase_11_files/shareon/shareon.min.js"></script>
+    <link href="clase_11_files/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="clase_11_files/xaringanExtra-shareagain/shareagain.js"></script>
     <script src="clase_11_files/kePrint/kePrint.js"></script>
     <link href="clase_11_files/lightable/lightable.css" rel="stylesheet" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -15,7 +22,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Clase 5
+# Clase 11
 ]
 .subtitle[
 ## Data Wrangling y ggplot2
@@ -24,10 +31,16 @@ class: center, middle, inverse, title-slide
 ### Sebastián Muñoz
 ]
 .date[
-### 2024-08-12
+### 2024-11-04
 ]
 
 ---
+
+
+
+
+
+
 
 
 
@@ -65,6 +78,17 @@ class: inverse, center, middle
 # De persona novata a experta
 
 ![experto](img/experto.png)
+---
+
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/quipu0.png")
+
+
+
+
+
 ---
 
 ### Flujo de trabajo
@@ -192,12 +216,87 @@ write.xlsx(x = objeto_resultados,file = "Resultados/cuadro1.xlsx")
 
 saveRDS(object = objeto_resultados,file = "Resultados/base_nueva.RDS")
 ```
+
+
+
+
+---
+
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/quipu.png")
+
+---
+
+## Definición de Términos
+
+### Quipú
+- Artefacto inca de cuerdas y nudos
+- Función: registro de información económica, demográfica, histórica
+- Operadores: quipucamayocs
+
+### Base de Datos
+- Sistema digital para almacenar y manipular información
+- Estructura: tablas con filas y columnas
+- Acceso mediante lenguajes de programación
+
+---
+
+## Analogías Funcionales
+
+### Almacenamiento de Información
+- **Quipú:** Posición y color de hilos, tipos de nudos
+- **Base de Datos:** Registros digitales en estructuras predefinidas
+
+### Sistematización y Orden
+- **Quipú:** Orden físico y visual
+- **Base de Datos:** Orden lógico definido por esquemas digitales
+
+---
+
+## Importancia Cultural y Tecnológica
+
+.pull-left[
+
+### Contexto Cultural
+- **Quipú:** Reflejo de la cosmovisión inca, sin sistema de escritura
+- **Base de Datos:** Reflejo de avances tecnológicos y manejo de información en la sociedad moderna
+
+### Especialización del Conocimiento
+- **Quipú:** Quipucamayocs, especialistas en su manejo
+- **Base de Datos:** Programadores y analístas de datos]
+
+
+.pull-right[
+![cash](img/quipu2.png)]
+
+
+---
+
+background-image: url("img/quipueg.jpg")
+background-size: cover
+
+
 ---
 class: inverse, center, middle
 
+
 # 2. Data Wrangling
 
+
 ---
+background-image: url("img/limpieza.png")
+background-size: cover
+
+
+
+---
+background-image: url("img/herramientas.png")
+background-size: cover
+
+---
+
 class: center, middle
 
 # 2.1 Limpieza de datos
@@ -213,7 +312,7 @@ En general los nombres de las variables de bases de datos (en bruto) tienen la f
 library(openxlsx)
 datos &lt;- read.xlsx(xlsxFile = "base/Encuesta Estudiantes Antropología 2023 (respuestas).xlsx", 
                    startRow = 2)
-#extraigo el nombre de todas las variables
+#extraigo el nombre de todas las variables y las observo
 names (datos)
 ```
 
@@ -316,9 +415,16 @@ names (datos)
 ## [32] "p33_si_respondio_otra_cual"
 ```
 
+---
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/limpieza2.png")
+
+
 
 ---
-## Limpiar nombres de variables 2
+## Reducir nombres de variables 2
 
 ### Existen nombres de variables muy largos, los quiero acortar.
 
@@ -422,7 +528,7 @@ names(datos)
 ---
 class: center, middle
 
-# 2.2 Transformación de variables
+# 2.2 Transformación de contenido de casos
 
 ---
 ## Transformaciones/limpieza en variables numéricas
@@ -459,6 +565,14 @@ datos$edad &lt;- as.numeric(gsub("[^0-9]+", "", datos$edad)) # elimino todo lo q
   + elimina cualquier carácter que no sea numérico de la columna "edad"
   + as.numeric: transforma en numérico. 
 ---
+
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/asnumeric.png")
+
+
+---
 ## Transformaciones/limpieza en variables numéricas
 
 Limpieza inicial de variables numéricas
@@ -488,7 +602,7 @@ table(datos$edad) # observo como quedó variable
 ]
  
 ---
-# Transformación de variables
+# Recodificación de variables
 
 Recodificación de tipo de medición de variable: paso de `numérica` a `ordinal`
 
@@ -532,6 +646,10 @@ datos &lt;- datos %&gt;%
 + **%in%**: Incluye. Lo que está a la izquierda está incluido en lo q está a la derecha
 ]
 
+
+
+
+
 ---
 # Transformación de variables
 
@@ -573,6 +691,12 @@ table(datos$edadr)
 + entonces: **¿Qué es recodificar?**
 
 ] 
+ 
+---
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/recode.png")
  
  
  
@@ -638,6 +762,14 @@ table(datos$comuna_actual)
 + **valores viejos** = valores nuevos
 
 
+
+---
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/Data_Wrangling.png")
+
+
 ---
 # Finalmente guardo mi base
 
@@ -649,6 +781,23 @@ write.xlsx(x = datos,file = "output/Encuesta_Antropología_Limpia")
 
 + **dir.create**: crea un directorio nuevo
 + **write.xlsx**: crea una base de datos con las modificaciones realizadas
+
+
+---
+
+
+background-size: contain
+background-repeat: no-repeat
+background-position: center center
+background-image: url("img/datos.png")
+
+
+---
+
+![flujo](img/flujo.png)
+
+
+
 
 ---
 class: inverse, center, middle
