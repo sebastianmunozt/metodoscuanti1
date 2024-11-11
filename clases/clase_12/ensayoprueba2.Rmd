@@ -1,0 +1,480 @@
+---
+title: "Ensayo Prueba 2"
+author: "Sebastián Muñoz"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+
+pacman::p_load(xaringan,xaringanthemer,tidyverse, gt,kableExtra )
+
+style_duo_accent(
+  primary_color = "#000000",
+  secondary_color = "#B40404",
+  inverse_header_color = "#FFFFFF"
+)
+
+```
+
+
+### Pregunta 1
+**¿Qué significa “asegurar la exhaustividad” en las categorías de respuesta de una pregunta cerrada múltiple?**
+
+1. Que cada respuesta sea independiente de las demás.
+2. Que se incluyan todas las posibles opciones de respuesta para cubrir todas las perspectivas de los encuestados.
+3. Que los encuestados solo puedan seleccionar una opción entre varias.
+4. Que las opciones de respuesta sean breves y concisas.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 1
+**¿Qué significa “asegurar la exhaustividad” en las categorías de respuesta de una pregunta cerrada múltiple?**
+
+1. Que cada respuesta sea independiente de las demás.
+2. Que se incluyan todas las posibles opciones de respuesta para cubrir todas las perspectivas de los encuestados. **(Correcta)**
+3. Que los encuestados solo puedan seleccionar una opción entre varias.
+4. Que las opciones de respuesta sean breves y concisas.
+
+**Explicación:** La **exhaustividad** en las categorías de respuesta asegura que todas las posibles respuestas estén representadas, permitiendo una mayor precisión en los datos recogidos.
+
+---
+
+### Pregunta 2
+**Determine el tipo de temporalidad en las siguientes investigaciones y clasifíquelas como transversal o longitudinal.**
+
+- a. Un estudio que mide el nivel de satisfacción laboral en una muestra de empleados de una empresa en un solo momento del año.
+- b. Una investigación que sigue durante cinco años la evolución de la salud mental de un grupo de estudiantes universitarios, midiendo anualmente.
+
+**Opciones:**
+1. La (a) es transversal, y la (b) es longitudinal.
+2. La (a) es longitudinal, y la (b) es transversal.
+3. Ambas son longitudinales.
+4. Ambas son transversales.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 2
+**Determine el tipo de temporalidad en las siguientes investigaciones y clasifíquelas como transversal o longitudinal.**
+
+- a. Un estudio que mide el nivel de satisfacción laboral en una muestra de empleados de una empresa en un solo momento del año.
+- b. Una investigación que sigue durante cinco años la evolución de la salud mental de un grupo de estudiantes universitarios, midiendo anualmente.
+
+**Opciones:**
+1. La (a) es transversal, y la (b) es longitudinal. **(Correcta)**
+2. La (a) es longitudinal, y la (b) es transversal.
+3. Ambas son longitudinales.
+4. Ambas son transversales.
+
+**Explicación:** La investigación (a) es transversal porque mide en un solo punto de tiempo, mientras que (b) es longitudinal, ya que mide en varios puntos a lo largo del tiempo.
+
+---
+
+### Pregunta 3
+**¿Qué se entiende por "exclusividad de categorías" en preguntas cerradas simples?**
+
+1. Que las opciones de respuesta cubran todas las alternativas posibles.
+2. Que cada categoría sea única y no se superponga con otras.
+3. Que cada respuesta esté claramente formulada.
+4. Que se permita al encuestado seleccionar varias opciones.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 3
+**¿Qué se entiende por "exclusividad de categorías" en preguntas cerradas simples?**
+
+1. Que las opciones de respuesta cubran todas las alternativas posibles.
+2. Que cada categoría sea única y no se superponga con otras. **(Correcta)**
+3. Que cada respuesta esté claramente formulada.
+4. Que se permita al encuestado seleccionar varias opciones.
+
+**Explicación:** La exclusividad en preguntas cerradas implica que las categorías no deben solaparse, para que cada opción represente una respuesta única.
+
+---
+
+### Pregunta 4
+**Clasifique las siguientes investigaciones según su tipo: exploratoria, descriptiva, asociativa o causal.**
+
+- a. "Esta investigación busca conocer las preferencias musicales de los estudiantes de sociología; según sus objetivos, es…”
+- b. "Esta investigación examina la relación entre horas de estudio y rendimiento académico en los estudiantes de antropología; según sus objetivos, es…”
+
+**Opciones:**
+1. El texto (a) es una investigación descriptiva, y el texto (b) es asociativa.
+2. El texto (a) es una investigación causal, y el texto (b) es descriptiva.
+3. El texto (a) es una investigación exploratoria, y el texto (b) es causal.
+4. El texto (a) es asociativa, y el texto (b) es exploratoria.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 4
+**Clasifique las siguientes investigaciones según su tipo: exploratoria, descriptiva, asociativa o causal.**
+
+- a. "Esta investigación busca conocer las preferencias musicales de los estudiantes de sociología; según sus objetivos, es…”
+- b. "Esta investigación examina la relación entre horas de estudio y rendimiento académico en los estudiantes de antropología; según sus objetivos, es…”
+
+**Opciones:**
+1. El texto (a) es una investigación descriptiva, y el texto (b) es asociativa. **(Correcta)**
+2. El texto (a) es una investigación causal, y el texto (b) es descriptiva.
+3. El texto (a) es una investigación exploratoria, y el texto (b) es causal.
+4. El texto (a) es asociativa, y el texto (b) es exploratoria.
+
+**Explicación:** La investigación (a) es descriptiva porque busca conocer características (preferencias) sin establecer relaciones. La investigación (b) es asociativa, pues examina una relación entre variables sin establecer causalidad.
+
+---
+
+### Pregunta 5
+**¿Cuál de los siguientes enunciados describe correctamente el uso de indicadores en la investigación cuantitativa?**
+
+1. Un indicador es un enunciado para establecer una medida observable que refleje un aspecto particular de una dimensión o subdimensión del concepto.
+2. Los indicadores solo se utilizan en investigaciones experimentales.
+3. Un indicador es la última fase del proceso de operacionalización.
+4. Los indicadores deben incluir opiniones personales para ser efectivos.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 5
+**¿Cuál de los siguientes enunciados describe correctamente el uso de indicadores en la investigación cuantitativa?**
+
+1. Un indicador es un enunciado para establecer una medida observable que refleje un aspecto particular de una dimensión o subdimensión del concepto.**(Correcta)**
+2. Los indicadores solo se utilizan en investigaciones experimentales.
+3. Un indicador es la última fase del proceso de operacionalización.
+4. Los indicadores deben incluir opiniones personales para ser efectivos.
+
+**Explicación:** Los indicadores reflejan aspectos específicos y medibles de un concepto más amplio, independientemente del tipo de investigación.
+
+---
+
+### Pregunta 6
+**Indique si el siguiente enunciado es verdadero o falso:**  
+"Estoy trabajando con una base de datos y quiero analizar solo las variables edad y satisfacción laboral. Primero, filtro para seleccionar mujeres, luego aplico select para escoger las variables edad y satisfacción laboral."
+
+**Opciones:**
+- Verdadero
+- Falso
+
+**Puntaje:** 1 punto  
+
+---
+
+### Respuesta a la Pregunta 6
+**Indique si el siguiente enunciado es verdadero o falso:**  
+"Estoy trabajando con una base de datos y quiero analizar solo las variables edad y satisfacción laboral. Primero, uso `select` para seleccionar mujeres, luego aplico `filter`  para escoger las variables edad y satisfacción laboral."
+
+**Opciones:**
+- Verdadero
+- Falso **(Correcta)**
+
+**Explicación:**  Usar `select` es para seleccionar variables,  aplicar `filter` para seleccionar categorias de las variables.
+
+---
+
+### Pregunta 7
+**¿Qué incluye el proceso de operacionalización en ciencias sociales?**
+
+- **I.** Identificar conceptos clave.
+- **II.** Determinar indicadores y preguntas para cada concepto.
+- **III.** Evaluar la relación entre dimensiones y subdimensiones.
+- **IV.** Definir el marco conceptual.
+- **V.** Crear el marco de análisis.
+
+**Opciones:**
+- I, II, III y IV
+- I, II y III
+- I, III y V
+- II, III y IV  
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 7
+**¿Qué incluye el proceso de operacionalización en ciencias sociales?**
+
+- **I.** Identificar conceptos clave.
+- **II.** Determinar indicadores y preguntas para indicador.
+- **III.** Evaluar la relación entre dimensiones y subdimensiones.
+- **IV.** Definir el marco conceptual.
+- **V.** Crear el marco de análisis.
+
+**Opciones:**
+- I, II, III y IV
+- I, II y III **(Correcta)**
+- I, III y V
+- II, III y IV  
+
+**Explicación:** El proceso de operacionalización implica identificar conceptos clave y determinar los indicadores necesarios para medirlos, además de evaluar cómo se relacionan las dimensiones y subdimensiones. Definir el marco conceptual y crear el marco de análisis no forman parte **directa** del proceso de operacionalización.
+
+---
+
+### Pregunta 8
+**Indique si el siguiente enunciado es verdadero o falso:**  
+"Un índice es una herramienta que permite agrupar preguntas relacionadas para obtener una única puntuación que represente un concepto específico."
+
+**Opciones:**
+- Verdadero
+- Falso
+
+**Puntaje:** 1 punto  
+
+---
+
+### Respuesta a la Pregunta 8
+**Indique si el siguiente enunciado es verdadero o falso:**  
+"Un índice es una herramienta que permite agrupar preguntas relacionadas para obtener una única puntuación que represente un concepto específico."
+
+**Opciones:**
+- Verdadero **(Correcta)**
+- Falso
+
+**Explicación:** Un índice efectivamente permite consolidar respuestas de varias preguntas para representar una única puntuación en torno a un concepto.
+
+---
+
+### Pregunta 9
+**¿A qué concepto de construcción de cuestionario corresponde la siguiente definición?:**  
+“Es la inclinación de las personas a responder, aunque no tengan una opinión formada sobre el tema.”  
+*Ejemplo:* ¿Cuál es su nivel de certeza sobre la relevancia de la teoría del caos en ciencias sociales?
+
+**Opciones:**
+1. Exhaustividad
+2. Preguntas excluyentes
+3. Cristalización
+4. Deseabilidad social
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 9
+**¿A qué concepto de construcción de cuestionario corresponde la siguiente definición?:**  
+“Es la inclinación de las personas a responder, aunque no tengan una opinión formada sobre el tema.”  
+*Ejemplo:* ¿Cuál es su nivel de certeza sobre la relevancia de la teoría del caos en ciencias sociales?
+
+**Opciones:**
+1. Exhaustividad
+2. Preguntas excluyentes
+3. Cristalización **(Correcta)**
+4. Deseabilidad social
+
+**Explicación:** **Cristalización** se refiere a la tendencia de los encuestados a responder a pesar de no tener un conocimiento o interés real en el tema.
+
+---
+
+### Pregunta 10
+**¿Qué se busca al “frasear con cuidado” las preguntas dicotómicas en un cuestionario?**
+
+1. Asegurar que una alternativa sea preferida por los encuestados.
+2. Evitar que una opción sea más atractiva que otra debido a un sesgo de deseabilidad social.
+3. Asegurar que los encuestados respondan de acuerdo con expectativas sociales.
+4. Dar opciones que sean fácilmente comprensibles.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 10
+**¿Qué se busca al “frasear con cuidado” las preguntas dicotómicas en un cuestionario?**
+
+1. Asegurar que una alternativa sea preferida por los encuestados.
+2. Evitar que una opción sea más atractiva que otra debido a un sesgo de deseabilidad social. **(Correcta)**
+3. Asegurar que los encuestados respondan de acuerdo con expectativas sociales.
+4. Dar opciones que sean fácilmente comprensibles.
+
+**Explicación:** “Frasear con cuidado” evita que una opción sea percibida como más atractiva por razones sociales, lo que minimiza el sesgo de **deseabilidad social**.
+
+---
+
+### Pregunta 11
+**En el contexto de la operacionalización, ¿a qué refieren específicamente los bloques (a) y (c)?:**
+
+- a. "Sensación de seguridad respecto a la estabilidad económica en caso de desempleo."
+- b. "¿Qué tan fácil considera que sería para usted encontrar un nuevo empleo aceptable si perdiera el actual?"
+- c. "Evaluación de los mecanismos de respaldo económico disponibles ante una situación de desempleo."
+- d. "¿Cuánta dificultad percibe para encontrar trabajo en caso de desempleo?"
+
+**Opciones:**
+1. El bloque (a) es una dimensión del concepto de seguridad, y el bloque (c) es un indicador.
+2. El bloque (a) es la definición del concepto de seguridad, mientras que el bloque (c) es una pregunta de cuestionario.
+3. El bloque (a) es una dimensión de seguridad económica, y el bloque (c) es un indicador de dicha dimensión.
+4. El bloque (a) es un aspecto de la seguridad laboral, y el bloque (c) es la definición del concepto central.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 11
+**En el contexto de la operacionalización, ¿a qué refieren específicamente los bloques (a) y (c)?:**
+
+- a. "Sensación de seguridad respecto a la estabilidad económica en caso de desempleo."
+- b. "¿Qué tan fácil considera que sería para usted encontrar un nuevo empleo aceptable si perdiera el actual?"
+- c. "Evaluación de los mecanismos de respaldo económico disponibles ante una situación de desempleo."
+- d. "¿Cuánta dificultad percibe para encontrar trabajo en caso de desempleo?"
+
+**Opciones:**
+1. El bloque (a) es una dimensión del concepto de seguridad, y el bloque (c) es un indicador.
+2. El bloque (a) es la definición del concepto de seguridad, mientras que el bloque (c) es una pregunta de cuestionario.
+3. El bloque (a) es una dimensión de seguridad económica, y el bloque (c) es un indicador de dicha dimensión. **(Correcta)**
+4. El bloque (a) es un aspecto de la seguridad laboral, y el bloque (c) es la definición del concepto central.
+
+**Explicación:** El bloque (a) representa una dimensión específica del concepto general de "seguridad económica". El bloque (c) es un indicador que permite medir esta dimensión específica.
+
+---
+
+### Pregunta 12
+**Determine el grado de experimentación en las siguientes investigaciones y clasifíquelas como experimental, cuasi-experimental o no experimental.**
+
+- a. Se realiza una encuesta a estudiantes para evaluar la relación entre las redes de apoyo y la satisfacción personal.
+- b. Dos cursos de estudiantes (no elegidos aleatoriamente) reciben diferentes métodos de enseñanza. A un curso se le instruye en métodos de estudio crítico, mientras que al otro no. Después, se evalúan ambos grupos en cuanto a sus habilidades de análisis.
+
+**Opciones:**
+1. La (a) es no experimental, y la (b) es cuasi-experimental.
+2. La (a) es cuasi-experimental, y la (b) es experimental.
+3. La (a) es experimental, y la (b) es cuasi-experimental.
+4. La (a) es cuasi-experimental, y la (b) es experimental.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 12
+**Determine el grado de experimentación en las siguientes investigaciones y clasifíquelas como experimental, cuasi-experimental o no experimental.**
+
+- a. Se realiza una encuesta a estudiantes para evaluar la relación entre las redes de apoyo y la satisfacción personal.
+- b. Dos cursos de estudiantes (no elegidos aleatoriamente) reciben diferentes métodos de enseñanza. A un curso se le instruye en métodos de estudio crítico, mientras que al otro no. Después, se evalúan ambos grupos en cuanto a sus habilidades de análisis.
+
+**Opciones:**
+1. La (a) es no experimental, y la (b) es cuasi-experimental. **(Correcta)**
+2. La (a) es cuasi-experimental, y la (b) es experimental.
+3. La (a) es experimental, y la (b) es cuasi-experimental.
+4. La (a) es cuasi-experimental, y la (b) es experimental.
+
+**Explicación:** La investigación (a) es no experimental porque se limita a la observación sin manipulación. La investigación (b) es cuasi-experimental porque implica una manipulación (método de enseñanza) sin asignación aleatoria de los grupos.
+
+---
+
+### Pregunta 13
+**En un índice de bienestar subjetivo, se presentan dos afirmaciones sobre la situación económica. ¿Cuál sería el problema de puntuación en el siguiente caso?**
+
+- a. "Creo que mi situación económica mejorará significativamente en los próximos cinco años." (0 puntos)
+- b. "Creo que mi situación económica seguirá igual en los próximos cinco años." (3 puntos)
+
+**Opciones:**
+1. Los puntos asignados no reflejan la actitud positiva hacia el futuro.
+2. La asignación de puntos es demasiado alta para ambas opciones.
+3. Las afirmaciones no están bien formuladas.
+4. No se incluyen suficientes alternativas de respuesta.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 13
+**En un índice de bienestar subjetivo, se presentan dos afirmaciones sobre la situación económica. ¿Cuál sería el problema de puntuación en el siguiente caso?**
+
+- a. "Creo que mi situación económica mejorará significativamente en los próximos cinco años." (0 puntos)
+- b. "Creo que mi situación económica seguirá igual en los próximos cinco años." (3 puntos)
+
+**Opciones:**
+1. Los puntos asignados no reflejan la actitud positiva hacia el futuro. **(Correcta)**
+2. La asignación de puntos es demasiado alta para ambas opciones.
+3. Las afirmaciones no están bien formuladas.
+4. No se incluyen suficientes alternativas de respuesta.
+
+**Explicación:** La asignación de puntos debería reflejar una actitud positiva hacia el futuro; dar 0 puntos a la respuesta que expresa esperanza no es coherente con esto.
+
+---
+
+### Pregunta 14
+**¿Cuál de las siguientes afirmaciones corresponde a una investigación experimental?**
+
+1. Un estudio que compara el nivel de estrés en estudiantes antes y después de aplicar una técnica de relajación en un grupo seleccionado aleatoriamente.
+2. Un análisis sobre la correlación entre el tiempo de sueño y el rendimiento académico en estudiantes universitarios.
+3. Una encuesta que recopila las opiniones de los estudiantes sobre su satisfacción con los servicios del campus.
+4. Un estudio de caso sobre las estrategias de aprendizaje de un grupo de estudiantes.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 14
+**¿Cuál de las siguientes afirmaciones corresponde a una investigación cuasi-experimental?**
+
+1. Un estudio que compara el nivel de estrés en estudiantes antes y después de aplicar una técnica de relajación en un grupo seleccionado aleatoriamente. **(Correcta)**
+2. Un análisis sobre la correlación entre el tiempo de sueño y el rendimiento académico en estudiantes universitarios.
+3. Una encuesta que recopila las opiniones de los estudiantes sobre su satisfacción con los servicios del campus.
+4. Un estudio de caso sobre las estrategias de aprendizaje de un grupo de estudiantes.
+
+**Explicación:** La opción correcta describe una investigación cuasi-experimental porque involucra una manipulación (técnica de relajación) y comparación de resultados antes y después.
+
+---
+
+### Pregunta 15
+**¿A qué concepto de construcción de cuestionario corresponde la siguiente definición?:**  
+“Es la tendencia de las personas a responder en una forma que creen favorable para el entrevistador, aunque no refleje sus opiniones reales.”  
+*Ejemplo:* ¿Cuánto apoya la afirmación: "Todos los ciudadanos deben votar"?
+
+**Opciones:**
+1. Cristalización
+2. Deseabilidad social
+3. Exhaustividad de respuestas
+4. Claridad de alternativas
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 15
+**¿A qué concepto de construcción de cuestionario corresponde la siguiente definición?:**  
+“Es la tendencia de las personas a responder en una forma que creen favorable para el entrevistador, aunque no refleje sus opiniones reales.”  
+*Ejemplo:* ¿Cuánto apoya la afirmación: "Todos los ciudadanos deben votar"?
+
+**Opciones:**
+1. Cristalización
+2. Deseabilidad social **(Correcta)**
+3. Exhaustividad de respuestas
+4. Claridad de alternativas
+
+**Explicación:** La **deseabilidad social** ocurre cuando los encuestados responden de manera que creen que será aprobada socialmente, sin reflejar necesariamente sus verdaderas opiniones.
+
+---
+
+### Pregunta 16
+**¿Qué se busca al “frasear con cuidado” las preguntas dicotómicas en un cuestionario?**
+
+1. Asegurar que una alternativa sea preferida por los encuestados.
+2. Evitar que una opción sea más atractiva que otra debido a un sesgo de deseabilidad social.
+3. Asegurar que los encuestados respondan de acuerdo con expectativas sociales.
+4. Dar opciones que sean fácilmente comprensibles.
+
+**Puntaje:** 2 puntos  
+
+---
+
+### Respuesta a la Pregunta 16
+**¿Qué se busca al “frasear con cuidado” las preguntas dicotómicas en un cuestionario?**
+
+1. Asegurar que una alternativa sea preferida por los encuestados.
+2. Evitar que una opción sea más atractiva que otra debido a un sesgo de deseabilidad social. **(Correcta)**
+3. Asegurar que los encuestados respondan de acuerdo con expectativas sociales.
+4. Dar opciones que sean fácilmente comprensibles.
+
+**Explicación:** “Frasear con cuidado” evita que una opción sea percibida como más atractiva por razones sociales, lo que minimiza el sesgo de **deseabilidad social**.
+
+---
