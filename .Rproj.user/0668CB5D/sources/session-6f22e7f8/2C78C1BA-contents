@@ -11,7 +11,7 @@
 
 | Ayudante           | email                       |
 |--------------------|-----------------------------|
-| Matías Álvarez     | maalvarr@alumnos.uahurtado.cl |
+| Fracesca Rocco    | maalvarr@alumnos.uahurtado.cl |
 
 
 A continuación, podrán descargar el programa y programación del curso.
@@ -48,9 +48,9 @@ Nota: Todas las clases son presenciales, a continuación pueden ver las presenta
 | 9    | 22-10-2024         | Índices y escalas                                                                                                   | [`Clase9`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_09/clase_09.pptx) · [`Podcast`](https://open.spotify.com/episode/54nJgA0yq66eecLoVfalVo?si=a102b99743fa4f17)                        |
 | 10   | 29-10-2024         | R: Exploración, guardar base y `tidyverse`                                                                          | [`Clase10`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/clase_10#1) · [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/clase_10.R) · [`Fuente1`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/fuentes/generales/Adquisiciones_y_vuelos_covid.xlsx) · [`Fuente2`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/fuentes/generales/base_covid_sample.RDS) · [`Fuente3`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/fuentes/generales/Covid19VacunasAgrupadas.csv) · [`Fuente4`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/fuentes/generales/vacuna.tweets.RDS) · [`Fuente5`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_10/fuentes/generales/Encuesta_Estudiantes_Antropología_2023_(respuestas).xlsx)|
 | 10,5  | 01-11-2024         | **Entrega Intermedia**: Marco Teórico y Metodológico, operacionalización                                             | Pendiente                                                                                                                                                              |
-| 11   | 05-11-2024         | R: Estadística descriptiva y `ggplot`                                                                               | [`Clase11`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_11/clase_11#1) · [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_11/clase_11.R)                                |
-| 12   | 12-11-2024         | Repaso general Prueba                                                                                               | Pendiente                                                                                                                                                              |
-| 13   | 19-11-2024         | Prueba 2: (a) Operacionalización, encuesta, cuestionario; (b) `tidyverse` y `ggplot`                                | [`Script de Repaso`](https://sebastianmunozt.github.io/metodoscuanti1/clases/3/script_repaso.R)                                                                                       |
+| 11   | 05-11-2024         | R: Estadística descriptiva y `ggplot`                                                                               | [`Clase11`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_11/clase_11#1) · [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_11/clase_11.R) · [`Fuente1`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_11/base/encuestaestudiantes2023.xlsx)                               |
+| 12   | 12-11-2024         | Repaso general Prueba                                                                                               |    [`.R`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_12/ensayo/apellido_nombre_prueba2.R) · [`Fuente1`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_12/ensayo/encuesta_estudiantes_2023.xlsx)                                                                                                                                                                  |
+| 13   | 19-11-2024         | Prueba 2: (a) Operacionalización, encuesta, cuestionario; (b) `tidyverse` y `ggplot`                                | [`Script de Repaso`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/script_repaso.R)                                                                                       |
 | 14   | 26-11-2024         | Tutorías Obligatorias                                                                                               | [`Instrucciones`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_14/01_Instrucciones.docx) · [`Rúbrica`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_14/02_Rubrica.docx)    |
 | 15   | 03-12-2024         | **Entrega Grupal Final**: presentación de investigación en clases y entrega de trabajo                              | [`Podcast`](https://open.spotify.com/episode/6g3oG5X2siF6USSzb2L6j7?si=c7603b0308034847)                                                                                    |
 
@@ -216,3 +216,7 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 - [`[Belcher Cómo-escribir-un-artículo-académico-en-12-semanas]`](https://metodoscuantitativos.github.io/mc2/bibliografía/optativa/Belcher-Cómo-escribir-un-artículo-académico-en-12-semanas.pdf)
 
  
+---
+
+[`A`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/apellido_nombre_prueba2_A_No_Resuelta.R) · [`FA`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/antropologia_2023.xlsx)   
+[`B`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/apellido_nombre_prueba2_B_No_Resuelta.R) · [`FB`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/b/estudiantes_2023.xlsx) 

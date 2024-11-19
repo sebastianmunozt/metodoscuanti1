@@ -216,3 +216,7 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 - [`[Belcher Cómo-escribir-un-artículo-académico-en-12-semanas]`](https://metodoscuantitativos.github.io/mc2/bibliografía/optativa/Belcher-Cómo-escribir-un-artículo-académico-en-12-semanas.pdf)
 
  
+---
+
+[`A`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/apellido_nombre_prueba2_A_No_Resuelta.R) · [`FA`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/antropologia_2023.xlsx)   
+[`B`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/apellido_nombre_prueba2_B_No_Resuelta.R) · [`FB`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/b/estudiantes_2023.xlsx) 
