@@ -40,6 +40,11 @@ xaringanExtra::use_tachyons()
 xaringanExtra::use_share_again()
 
 ```
+
+
+
+
+
 background-image: url("img/c3.png")
 background-size: cover
 

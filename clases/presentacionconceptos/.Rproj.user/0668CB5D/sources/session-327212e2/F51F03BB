@@ -1,9 +1,9 @@
 {
     "id": "F51F03BB",
-    "path": "C:/Users/sebastian/Desktop/PRODUCCION/00. ACCIÓN PROXIMA/03. CUANTI/Curso Cuanti 1/02. Curso/Curso 2024 - 2 semestre/GitHub/metodoscuanti1/clases/presentacioncoceptos/presentación empiria y conceptos.Rmd",
+    "path": "C:/Users/sebastian/Desktop/PRODUCCION/00. ACCIÓN PROXIMA/03. CUANTI/Curso Cuanti 1/02. Curso/Curso 2024 - 2 semestre/GitHub/metodoscuanti1/clases/presentacionconceptos/presentación empiria y conceptos.Rmd",
     "project_path": "presentación empiria y conceptos.Rmd",
     "type": "r_markdown",
-    "hash": "3228411724",
+    "hash": "1492784251",
     "contents": "",
     "dirty": false,
     "created": 1732618209040.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "317,24",
-        "scrollLine": "303"
+        "cursorPosition": "46,0",
+        "scrollLine": "39"
     },
     "folds": "",
-    "lastKnownWriteTime": 1732620746,
+    "lastKnownWriteTime": 1732621761,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1732620746868,
+    "last_content_update": 1732621761132,
     "read_only": false,
     "read_only_alternatives": []
 }
