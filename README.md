@@ -221,3 +221,6 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
 [`A`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/apellido_nombre_prueba2_A_No_Resuelta.R) · [`FA`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/a/antropologia_2023.xlsx)   
 [`B`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/b/apellido_nombre_prueba2_B_No_Resuelta.R) · [`FB`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/b/estudiantes_2023.xlsx) 
 
+
+
+[`PresentacionConceptos`](https://sebastianmunozt.github.io/metodoscuanti1/clases/presentacionconceptos/presentación-empiria-y-conceptos#1) 
