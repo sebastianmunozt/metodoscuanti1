@@ -218,4 +218,4 @@ Recuerde puede faltar a 8 bloques! y debe ir a al menos a 3 Ayudantías!
  
 ---
 
-[`C`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/C/apellido_nombre_prueba2_C_No_Resuelta.R) · [`FC`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/c/es_2023.xlsx)   
+[`C`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/c/apellido_nombre_prueba2_C_No_Resuelta.R) · [`FC`](https://sebastianmunozt.github.io/metodoscuanti1/clases/clase_13/pruebas/c/es_2023.xlsx)   
